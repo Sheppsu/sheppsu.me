@@ -1,0 +1,72 @@
+:root {
+    --heading-color: #eeeeee;
+    --text-color: #cccccc;
+    --background-color: #111111;
+    --line-color: #555555;
+    --link-color: #999999;
+    --link-hover-color: #2222cc;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-family: Verdana;
+    color: var(--heading-color);
+}
+
+p {
+    font-family: Verdana;
+    color: var(--text-color);
+}
+
+a {
+    font-family: Verdana;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+hr {
+    height: 1px;
+    background-color: var(--line-color);
+    border: none;
+}
+
+.content {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    max-width: 400px;
+
+    border: 1px solid;
+    border-color: var(--line-color);
+    border-radius: 20px;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.links-container {
+    padding: 0 10px;
+}
+
+.link-container {
+    margin: 15px 0;
+}
+
+.link {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link-description {
+    font-size: 10px;
+    margin: 0;
+    margin-left: 10px;
+}
