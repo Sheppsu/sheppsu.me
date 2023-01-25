@@ -39,7 +39,7 @@ hr {
 
 .content {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     width: 50%;
     max-width: 400px;
 
@@ -53,6 +53,7 @@ hr {
 
 .links-container {
     padding: 0 10px;
+	width: 300px;
 }
 
 .link-container {
