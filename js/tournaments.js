@@ -41,12 +41,14 @@ function createTournamentElements(data) {
 
         const description = createDescriptionObject("Description", tournament.description);
         const link = createDescriptionObject("Sheet/Forum post", "<a href=\""+tournament.link+"\" target=\"_blank\">"+tournament.link+"</a>");
+		const dateSpan = createDescriptionObject("Date", tournament.dateSpan);
         const placement = createDescriptionObject("Placement", tournament.placement);
         const team = createDescriptionObject("Team name", tournament.team);
         const playerList = createPlayerList(tournament.players)
 
         infoContainer.appendChild(description);
         infoContainer.appendChild(link);
+		infoContainer.appendChild(dateSpan);
         infoContainer.appendChild(placement);
         infoContainer.appendChild(team);
         infoContainer.appendChild(playerList);
