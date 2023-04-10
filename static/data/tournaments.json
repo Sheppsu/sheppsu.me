@@ -94,7 +94,45 @@
             ],
             "placement": "Eliminated in Quarterfinals (Losers)",
             "dateSpan": "3/12/23 - 3/26/23"
-        }
+        },
+		{
+			"tournamentId": 6,
+			"team": "Kentucky",
+			"players": [
+				{
+					"name": "SirShyLord",
+					"id": 9890753,
+					"rank": 12282
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 20461
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 15111
+				},
+				{
+					"name": "Akari-",
+					"id": 341591,
+					"rank": 21890
+				},
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 14281
+				},
+				{
+					"name": "ThisFatty",
+					"id": 10808688,
+					"rank": 54291
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "4/15/23 - Present"
+		}
     ],
     "hosted": [4],
     "reffed": [1, 5],
