@@ -1,0 +1,103 @@
+{
+    "tournaments": [
+        {
+            "id": 1,
+			"acronym": "USARTT4",
+            "name": "USA Random Team Tournament 4",
+            "link": "https://docs.google.com/spreadsheets/d/1ErIUZVElLBtBNpRSi31YVoFjdK6qOK0o7YgTFbPBbvk/edit#gid=946125474",
+            "description": "4v4 tournament of 5 digit USA players forming teams of 4 or 5"
+        },
+        {
+            "id": 2,
+			"acronym": "OCT",
+            "name": "Offline Chat Tournament",
+            "link": "https://docs.google.com/spreadsheets/d/1jnAzEyao183Pn35rYTYl7Z-J_QmikdUmZcL-Xyr5NEs/edit#gid=31255872",
+            "description": "A standard 1v1 tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
+        },
+        {
+            "id": 3,
+			"acronym": "OCT2",
+            "name": "Offline Chat Tournament 2",
+            "link": "https://docs.google.com/spreadsheets/d/1OpKgXsUBgqKMkBfmUZacDmPoyutQe3LuTCdpehmlsEo/edit#gid=1203128363",
+            "description": "A standard 2v2 (teams of 4) tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
+        },
+        {
+            "id": 4,
+			"acronym": "OCT3",
+            "name": "Offline Chat Tournament 3",
+            "link": "https://docs.google.com/spreadsheets/d/1C9ml7TqW7ePh3PzIMKMTFk8OJp1S7_3xrO66-0IFCrc/edit#gid=0",
+            "description": "A standard 1v1 tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
+        },
+		{
+			"id": 5,
+			"acronym": "5NAD",
+			"name": "5 Digit North American Draft",
+			"link": "https://osu.ppy.sh/community/forums/topics/1741206?n=1",
+			"description": "A 4v4 draft tournament with teams of 8 players. Limited to 5 digit North American players."
+		},
+		{
+			"id": 6,
+			"acronym": "5USC",
+			"name": "5 Digit United States Cup",
+			"link": "https://osu.ppy.sh/community/forums/topics/1738300?n=1",
+			"description": "A standard 3v3 tournament with teams of 6 5-digit players from each state in the United States."
+		}
+    ],
+    "played": [
+        {
+            "tournamentId": 3,
+            "team": "Tasty",
+            "players": [
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 60887
+                },
+                {
+                    "name": "WillyBoi69",
+                    "id": 12931540,
+                    "rank": 71610
+                },
+                {
+                    "name": "1TB SSD",
+                    "id": 14479923,
+                    "rank": 58881
+                }
+            ],
+            "placement": "Eliminated in Semifinals (Losers)",
+            "dateSpan": "11/12/21 - 11/28/21"
+        },
+        {
+            "tournamentId": 1,
+            "team": "RTT Team",
+            "players": [
+                {
+                    "name": "FelixSosa", 
+                    "id": 17958667, 
+                    "rank": 11485
+                }, 
+                {
+                    "name": "MEGA PESCADO", 
+                    "id": 25306176, 
+                    "rank": 10170
+                }, 
+                {
+                    "name": "Sylliant", 
+                    "id": 18793670, 
+                    "rank": 35909
+                }, 
+                {
+                    "name": "Sheppsu", 
+                    "id": 14895608, 
+                    "rank": 20399
+                }
+            ],
+            "placement": "Eliminated in Quarterfinals (Losers)",
+            "dateSpan": "3/12/23 - 3/26/23"
+        }
+    ],
+    "hosted": [4],
+    "reffed": [1, 5],
+    "streamed": [2, 3, 4],
+    "mappooled": [4]
+}
