@@ -11,7 +11,7 @@ function createPlayerList(players) {
         const elm = document.createElement("li");
         elm.style.listStyleType = "none";
         const link = document.createElement("a");
-        link.setAttribute("href", "https://osu.ppy.sh/u/"+player.id);
+        link.setAttribute("href", "https://osu.ppy.sh/users/"+player.id+"/osu");
         link.innerHTML = player.name+" (#"+player.rank+")";
         link.setAttribute("target", "_blank");
         elm.appendChild(link);
@@ -29,7 +29,7 @@ function createDropdown(heading) {
     clickContainer.setAttribute("class", "tournament-click-container");
 	
     const header = document.createElement("h1");
-    header.setAttribute("class", "tournament-header");
+    header.setAttribute("class", "prevent-select tournament-header");
     header.innerHTML = heading;
 	
 	const line = document.createElement("hr");

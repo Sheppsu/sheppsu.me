@@ -30,7 +30,7 @@
         },
 		{
 			"id": 5,
-			"acronym": "5NAD",
+			"acronym": "5DNAD",
 			"name": "5 Digit North American Draft",
 			"link": "https://osu.ppy.sh/community/forums/topics/1741206?n=1",
 			"description": "A 4v4 draft tournament with teams of 8 players. Limited to 5 digit North American players."
@@ -132,6 +132,54 @@
 			],
 			"placement": "N/A",
 			"dateSpan": "4/15/23 - Present"
+		},
+		{
+			"tournamentId": 5,
+			"team": "flatpaper my mommy 😍",
+			"players": [
+				{
+					"name": "FelixSosa",
+					"id": "17958667",
+					"rank": "3986"
+				},
+				{
+					"name": "Samba",
+					"id": "4010492",
+					"rank": "18680"
+				},
+				{
+					"name": "kymotsujason",
+					"id": "2541804",
+					"rank": "49093"
+				},
+				{
+					"name": "-Aiba-",
+					"id": "15641344",
+					"rank": "17087"
+				},
+				{
+					"name": "Sylliant",
+					"id": "18793670",
+					"rank": "35551"
+				},
+				{
+					"name": "Sheppsu",
+					"id": "14895608",
+					"rank": "20377"
+				},
+				{
+					"name": "p0keyy",
+					"id": "11771664",
+					"rank": "16051"
+				},
+				{
+					"name": "Nevarinn",
+					"id": "12062155",
+					"rank": "40633"
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "4/23/23 - Present"
 		}
     ],
     "hosted": [4],
