@@ -41,6 +41,13 @@
 			"name": "5 Digit United States Cup",
 			"link": "https://osu.ppy.sh/community/forums/topics/1738300?n=1",
 			"description": "A standard 3v3 tournament with teams of 6 5-digit players from each state in the United States."
+		},
+		{
+			"id": 7,
+			"acronym": "TDT",
+			"name": "Texas Draft Tournament",
+			"link": "https://docs.google.com/spreadsheets/d/1eUNdh3XWYvp_k_UVA-QrBHRTVfQiHDdpzE9d_CQzaIY/edit#gid=332367410",
+			"description": "Draft tournament for Texas players."
 		}
     ],
     "played": [
@@ -184,6 +191,6 @@
     ],
     "hosted": [4],
     "reffed": [1, 5],
-    "streamed": [2, 3, 4],
+    "streamed": [2, 3, 7, 4],
     "mappooled": [4]
 }
