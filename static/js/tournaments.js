@@ -95,7 +95,7 @@ function createTournamentElements(data) {
 			createDescriptionObject("Tournament", tournament.name),
 			createDescriptionObject("Description", tournament.description),
 			createDescriptionObject("Sheet/Forum post", "<a href=\""+tournament.link+"\" target=\"_blank\">"+tournament.link+"</a>"),
-			createDescriptionObject("Date", info.dateSpan),
+			createDescriptionObject("Date (MM/DD/YY)", info.dateSpan),
 			createDescriptionObject("Placement", info.placement),
 			createDescriptionObject("Team name", info.team),
 			createPlayerList(info.players)
