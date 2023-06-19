@@ -48,6 +48,13 @@
 			"name": "Texas Draft Tournament",
 			"link": "https://docs.google.com/spreadsheets/d/1eUNdh3XWYvp_k_UVA-QrBHRTVfQiHDdpzE9d_CQzaIY/edit#gid=332367410",
 			"description": "Draft tournament for Texas players."
+		},
+		{
+			"id": 8,
+			"acronym": "5THC",
+			"name": "5 Digit Touhou Cup",
+			"link": "https://osu.ppy.sh/community/forums/topics/1766738?n=1",
+			"description": "5THC is an international 3v3 TS6 tournament. It features touhou-only pools and anyone from rank 10k or below can join."
 		}
     ],
     "played": [
@@ -190,7 +197,7 @@
 		}
     ],
     "hosted": [4],
-    "reffed": [1, 5],
+    "reffed": [1, 5, 8],
     "streamed": [2, 3, 7, 4],
     "mappooled": [4]
 }
