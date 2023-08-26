@@ -55,6 +55,20 @@
 			"name": "5 Digit Touhou Cup",
 			"link": "https://osu.ppy.sh/community/forums/topics/1766738?n=1",
 			"description": "5THC is an international 3v3 TS6 tournament. It features touhou-only pools and anyone from rank 10k or below can join."
+		},
+		{
+			"id": 9,
+			"acronym": "SUT",
+			"name": "Shake Up Tournament",
+			"link": "https://osu.ppy.sh/community/forums/topics/1777003?n=1",
+			"description": "1v1 tournament with gimmicky rules and non-standard pooling."
+		},
+		{
+			"id": 10,
+			"acronym": "OCT4",
+			"name": "Offline Chat Tournament 4",
+			"link": "https://oct.sheppsu.me/tournaments/OCT4",
+			"description": "A 2v2 TS5 draft tournament that uses a tiering system. This is the 4th iteration of OCT, hosted for the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
 		}
     ],
     "played": [
@@ -234,8 +248,8 @@
 			"dateSpan": "6/19/22 - 7/2/23"
 		}
     ],
-    "hosted": [4],
-    "reffed": [1, 5, 8],
-    "streamed": [2, 3, 7, 4],
-    "mappooled": [4]
+    "hosted": [4, 10],
+    "reffed": [1, 5, 8, 10],
+    "streamed": [2, 3, 7, 4, 9, 10],
+    "mappooled": [4, 10]
 }
