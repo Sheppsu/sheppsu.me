@@ -69,6 +69,13 @@
 			"name": "Offline Chat Tournament 4",
 			"link": "https://oct.sheppsu.me/tournaments/OCT4",
 			"description": "A 2v2 TS5 draft tournament that uses a tiering system. This is the 4th iteration of OCT, hosted for the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
+		},
+		{
+			"id": 11,
+			"acronym": "AGT",
+			"name": "Another Generic Tournament",
+			"link": "https://osu.ppy.sh/community/forums/topics/1806937?n=1",
+			"description": "A standard 2v2 TS4 tournament with rank range 10k-99,999."
 		}
     ],
     "played": [
@@ -246,6 +253,34 @@
 			],
 			"placement": "24th-32nd of 61",
 			"dateSpan": "6/19/22 - 7/2/23"
+		},
+		{
+			"tournamentId": 11,
+			"team": "team name guh",
+			"players": [
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 15653
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 19829
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 15187
+				},
+				{
+					"name": "vAsobii-",
+					"id": 16660532,
+					"rank": 11864
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "9/8/23 - Present"
 		}
     ],
     "hosted": [4, 10],
