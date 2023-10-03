@@ -43,7 +43,9 @@ function createDropdown(heading) {
 	container.appendChild(clickContainer);
 	container.appendChild(line);
 	for (var i=1; i<arguments.length; i++) {
-		infoContainer.appendChild(arguments[i]);
+		if (arguments[i] != null) {
+			infoContainer.appendChild(arguments[i]);
+		}
 	}
 	container.appendChild(infoContainer);
 	
@@ -74,6 +76,13 @@ function createDivider(heading) {
 	return divider;
 }
 
+function createBanner(src) {
+	const img = document.createElement("img");
+	img.src = src;
+	img.setAttribute("class", "banner");
+	return img;
+}
+
 function createTournamentElements(data) {
 	function getTournament(id) {
 		for (const tournament of data.tournaments) {
@@ -92,6 +101,7 @@ function createTournamentElements(data) {
 		
 		const dropdown = createDropdown(
 			tournament.acronym,
+			info.banner == undefined ? null : createBanner(info.banner),
 			createDescriptionObject("Tournament", tournament.name),
 			createDescriptionObject("Description", tournament.description),
 			createDescriptionObject("Sheet/Forum post", "<a href=\""+tournament.link+"\" target=\"_blank\">"+tournament.link+"</a>"),

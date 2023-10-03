@@ -34,3 +34,7 @@ th, td {
 .tournament-info-container {
     overflow-wrap: break-word;
 }
+
+.banner {
+	width: 100%;
+}
