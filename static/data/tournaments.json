@@ -76,6 +76,13 @@
 			"name": "Another Generic Tournament",
 			"link": "https://osu.ppy.sh/community/forums/topics/1806937?n=1",
 			"description": "A standard 2v2 TS4 tournament with rank range 10k-99,999."
+		},
+		{
+			"id": 12,
+			"acronym": "CCC",
+			"name": "Chronicler Conquest Chronicles",
+			"link": "https://osu.ppy.sh/community/forums/topics/1818839?n=1",
+			"description": "3v3 TS6 tournament with raid map gimmick"
 		}
     ],
     "played": [
@@ -280,8 +287,41 @@
 					"rank": 11864
 				}
 			],
-			"placement": "N/A",
-			"dateSpan": "9/8/23 - Present"
+			"placement": "12th-16th of 95",
+			"dateSpan": "9/8/23 - 10/1/23"
+		},
+		{
+			"tournamentId": 12,
+			"team": "Colonel Sanders vs The World",
+			"players": [
+				{
+					"name": "SirShyLordy",
+					"id": 9890753,
+					"rank": 13614
+				},
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 15051
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 19969
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 14297
+				},
+				{
+					"name": "yuutsu",
+					"id": 16709379,
+					"rank": 46271
+				}
+			],
+			"placement": "DNQ 36th of 59",
+			"dateSpan": "10/21/23"
 		}
     ],
     "hosted": [4, 10],
