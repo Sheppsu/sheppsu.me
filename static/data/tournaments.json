@@ -83,6 +83,13 @@
 			"name": "Chronicler Conquest Chronicles",
 			"link": "https://osu.ppy.sh/community/forums/topics/1818839?n=1",
 			"description": "3v3 TS6 tournament with raid map gimmick"
+		},
+		{
+			"id": 13,
+			"acronym": "FRX",
+			"name": "Fulminare Redux",
+			"link": "https://osu.ppy.sh/community/forums/topics/1835614?n=1",
+			"description": "Relatively standard 4v4 TS8 tournament with 5 digit rank range and non-standard pooling. Mappool is divided into 'mechanical' and 'technical' pools."
 		}
     ],
     "played": [
@@ -322,6 +329,54 @@
 			],
 			"placement": "DNQ 36th of 59",
 			"dateSpan": "10/21/23"
+		},
+		{
+			"tournamentId": 13,
+			"team": "aizzes faire",
+			"players": [
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 14277
+				},
+				{
+					"name": "SirShyLordy",
+					"id": 9890753,
+					"rank": 13989
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 20181
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 20181
+				},
+				{
+					"name": "Akari-",
+					"id": 341591,
+					"rank": 16678
+				},
+				{
+					"name": "pure_conpollo",
+					"id": 21364718,
+					"rank": 27446
+				},
+				{
+					"name": "-Rykker",
+					"id": 20144836,
+					"rank": 39123
+				},
+				{
+					"name": "zane-",
+					"id": 26576878,
+					"rank": 13216
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "11/26/2023 - Present"
 		}
     ],
     "hosted": [4, 10],
