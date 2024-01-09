@@ -90,6 +90,13 @@
 			"name": "Fulminare Redux",
 			"link": "https://osu.ppy.sh/community/forums/topics/1835614?n=1",
 			"description": "Relatively standard 4v4 TS8 tournament with 5 digit rank range and non-standard pooling. Mappool is divided into 'mechanical' and 'technical' pools."
+		},
+		{
+			"id": 14,
+			"acronym": "OCT5",
+			"name": "Offline Chat Tournament 5",
+			"link": "https://oct.sheppsu.me/tournaments/OCT5",
+			"description": "A standard 1v1 tournament and the 5th iteration of OCT, hosted for (mainly) the BTMC offline chat community. Note: BTMC has no official affiliation with the tournament."
 		}
     ],
     "played": [
@@ -379,8 +386,8 @@
 			"dateSpan": "11/26/2023 - 12/10/2023"
 		}
     ],
-    "hosted": [4, 10],
-    "reffed": [1, 5, 8, 10],
-    "streamed": [2, 3, 7, 4, 9, 10],
-    "mappooled": [4, 10]
+    "hosted": [4, 10, 14],
+    "reffed": [1, 5, 8, 10, 14],
+    "streamed": [2, 3, 7, 4, 9, 10, 14],
+    "mappooled": [4, 10, 14]
 }
