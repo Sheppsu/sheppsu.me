@@ -97,6 +97,13 @@
 			"name": "Offline Chat Tournament 5",
 			"link": "https://oct.sheppsu.me/tournaments/OCT5",
 			"description": "A standard 1v1 tournament and the 5th iteration of OCT, hosted for (mainly) the BTMC offline chat community. Note: BTMC has no official affiliation with the tournament."
+		},
+		{
+			"id": 15,
+			"acronym": "MOT",
+			"name": "Matho's osu! Tournament",
+			"link": "https://osu.ppy.sh/community/forums/topics/1856193?n=1",
+			"description": "A standard 2v2 TS4 tournament with two brackets of rank ranges 1-9,999 and 10,000-110,000."
 		}
     ],
     "played": [
@@ -149,11 +156,27 @@
                 }
             ],
             "placement": "13th-16th out of 16",
-            "dateSpan": "3/12/23 - 3/26/23"
+            "dateSpan": "3/12/23 - 3/26/23",
+			"matches": [
+				{
+					"id": 107457865,
+					"round": "Round of 16",
+					"opponent": "tinyurl.com/yeyrj5t4",
+					"myScore": 3,
+					"oScore": 5
+				},
+				{
+					"id": 107606592,
+					"round": "Quarterfinals",
+					"opponent": "niko nm2 incident",
+					"myScore": 0,
+					"oScore": 6
+				}
+			]
         },
 		{
 			"tournamentId": 6,
-			"team": "Kentucky",
+			"team": "Kentucky A",
 			"players": [
 				{
 					"name": "SirShyLord",
@@ -187,7 +210,41 @@
 				}
 			],
 			"placement": "13-16th out of 33",
-			"dateSpan": "4/15/23 - 5/7/23"
+			"dateSpan": "4/15/23 - 5/7/23",
+			"matches": [
+				{
+					"id": 107995878,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 108133092,
+					"round": "Round of 32",
+					"opponent": "Stateless A",
+					"myScore": 1,
+					"oScore": 6
+				},
+				{
+					"id": 108252866,
+					"round": "Losers Round of 16",
+					"opponent": "Oregon A",
+					"myScore": 6,
+					"oScore": 3
+				},
+				{
+					"id": 108355114,
+					"round": "Losers Quarterfinals",
+					"opponent": "Oklahoma A",
+					"myScore": 6,
+					"oScore": 2
+				},
+				{
+					"id": 108375711,
+					"round": "Losers Quarterfinals",
+					"opponent": "Washington A",
+					"myScore": 0,
+					"oScore": 6
+				}
+			]
 		},
 		{
 			"tournamentId": 5,
@@ -236,7 +293,58 @@
 			],
 			"placement": "2nd of 16",
 			"dateSpan": "4/23/23 - 6/11/23",
-			"banner": "https://safe.sheppsu.me/blLW1kMQs9k"
+			"banner": "https://media.sheppsu.me/blLW1kMQs9k",
+			"matches": [
+				{
+					"id": 108197214,
+					"round": "Swiss Round 1",
+					"opponent": "G-Force",
+					"myScore": 5,
+					"oScore": 3
+				},
+				{
+					"id": 108354161,
+					"round": "Swiss Round 2",
+					"opponent": "rankly↨rank right meow",
+					"myScore": 4,
+					"oScore": 5
+				},
+				{
+					"id": 108494856,
+					"round": "Swiss Round 3",
+					"opponent": "cool dog",
+					"myScore": 6,
+					"oScore": 5
+				},
+				{
+					"id": 108584039,
+					"round": "Swiss Round 4",
+					"opponent": "Lexic Paycheck",
+					"myScore": 6,
+					"oScore": 4
+				},
+				{
+					"id": 108827870,
+					"round": "Quarterfinals",
+					"opponent": "25$ to go 0-3",
+					"myScore": 7,
+					"oScore": 5
+				},
+				{
+					"id": 108875596,
+					"round": "Semifinals",
+					"opponent": "rankly↨rank right meow",
+					"myScore": 7,
+					"oScore": 6
+				},
+				{
+					"id": 108962065,
+					"round": "Finals",
+					"opponent": "bluenerds",
+					"myScore": 1,
+					"oScore": 7
+				}
+			]
 		},
 		{
 			"tournamentId": 8,
@@ -274,7 +382,28 @@
 				}
 			],
 			"placement": "24th-32nd of 61",
-			"dateSpan": "6/19/22 - 7/2/23"
+			"dateSpan": "6/19/22 - 7/2/23",
+			"matches": [
+				{
+					"id": 109090318,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 109185429,
+					"round": "Round of 32",
+					"opponent": "вумук",
+					"myScore": 0,
+					"oScore": 6
+				},
+				{
+					"id": 109301100,
+					"round": "Losers Round of 16",
+					"opponent": "Cartoonknight Fan Club",
+					"myScore": 5,
+					"oScore": 6,
+					"notes": "This match was actually cursed cuz the match went to TB but we missed out on two easy points because 1. my game crashed during one of the FMs that we would've otherwise won, and 2. I underperformed so hard on the nm3 which we barely lost."
+				}
+			]
 		},
 		{
 			"tournamentId": 11,
@@ -302,7 +431,42 @@
 				}
 			],
 			"placement": "12th-16th of 95",
-			"dateSpan": "9/8/23 - 10/1/23"
+			"dateSpan": "9/8/23 - 10/1/23",
+			"matches": [
+				{
+					"id": 110421223,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 110504309,
+					"round": "Round of 32",
+					"opponent": "Romania 5WC",
+					"myScore": 2,
+					"oScore": 5
+				},
+				{
+					"id": null,
+					"round": "Losers Round of 16",
+					"opponent": "Крокозябрики",
+					"myScore": 0,
+					"oScore": -1
+				},
+				{
+					"id": null,
+					"round": "Losers Quarterfinals",
+					"opponent": "si",
+					"myScore": 0,
+					"oScore": -1
+				},
+				{
+					"id": 110703489,
+					"round": "Losers Quarterfinals",
+					"opponent": "Raoul Fanclub",
+					"myScore": 5,
+					"oScore": 6,
+					"notes": "was so close to clutching up on the tb IF I COULD COMBOOOO 😭😭"
+				}
+			]
 		},
 		{
 			"tournamentId": 12,
@@ -335,7 +499,13 @@
 				}
 			],
 			"placement": "DNQ 36th of 59",
-			"dateSpan": "10/21/23"
+			"dateSpan": "10/21/23",
+			"matches": [
+				{
+					"id": 110983079,
+					"round": "Qualifiers"
+				}
+			]
 		},
 		{
 			"tournamentId": 13,
@@ -383,11 +553,31 @@
 				}
 			],
 			"placement": "32nd-17th of 77",
-			"dateSpan": "11/26/2023 - 12/10/2023"
+			"dateSpan": "11/26/2023 - 12/10/2023",
+			"matches": [
+				{
+					"id": 111470430,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 111542705,
+					"round": "Round of 32",
+					"opponent": "im actualy crying rn",
+					"myScore": 0,
+					"oScore": 5
+				},
+				{
+					"id": 111667649,
+					"round": "Losers Round of 16",
+					"opponent": "ogayuuuu ;;;;—;;;;",
+					"myScore": 1,
+					"oScore": 5
+				}
+			]
 		}
     ],
     "hosted": [4, 10, 14],
-    "reffed": [1, 5, 8, 10, 14],
+    "reffed": [1, 5, 8, 10, 14, 15],
     "streamed": [2, 3, 7, 4, 9, 10, 14],
-    "mappooled": [4, 10, 14]
+    "mappooled": [4, 10, 14, 15]
 }

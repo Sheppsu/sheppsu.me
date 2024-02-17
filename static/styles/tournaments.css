@@ -38,3 +38,11 @@ th, td {
 .banner {
 	width: 100%;
 }
+
+.loss-text {
+	color: #c92828;
+}
+
+.win-text {
+	color: #28c949;
+}

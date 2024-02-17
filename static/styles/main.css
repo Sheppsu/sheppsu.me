@@ -5,6 +5,7 @@
     --line-color: #555555;
     --link-color: #999999;
     --link-hover-color: #2222cc;
+	--dropdown-text-hover: #cca422;
 }
 
 body {
@@ -73,7 +74,16 @@ hr {
     margin-left: 10px;
 }
 
-.prevent-select {
+.dropdown-text {
+	color: var(--link-color);
+	cursor: pointer;
+}
+
+.dropdown-text:hover {
+	color: var(--dropdown-text-hover);
+}
+
+.prevent-select, .dropdown-text {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */

@@ -1,3 +1,43 @@
+function createMatchesDropdown(matches) {
+	const container = document.createElement("div");
+	
+	const matchesLabel = document.createElement("p");
+	matchesLabel.innerHTML = "Matches";
+	matchesLabel.setAttribute("class", "dropdown-text");
+	
+	const matchesContainer = document.createElement("div");
+	matchesContainer.setAttribute("hidden", "");
+	
+	container.appendChild(matchesLabel);
+	container.appendChild(matchesContainer);
+	
+	for (const match of matches) {
+		const text = document.createElement("p");
+		if (match.myScore == null) {
+			text.innerHTML = `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.round}</a>`;
+		} else {
+			const scoreClass = match.myScore > match.oScore ? "win-text" : "loss-text";
+			const score = (match.myScore == -1 || match.oScore == -1) ? "FF" : `${match.myScore}-${match.oScore}`;
+			const opponent = match.id == null ? match.opponent : `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.opponent}</a>`;
+			text.innerHTML = `<span class="${scoreClass}">${score}</span> <b>${match.round}</b> vs ${opponent}`;
+		}
+		if (match.notes != undefined) {
+			text.innerHTML += "</br>"+match.notes;
+		}
+		matchesContainer.appendChild(text);
+	}
+	
+	matchesLabel.onclick = function() {
+		if (matchesContainer.hasAttribute("hidden")) {
+			matchesContainer.removeAttribute("hidden");
+		} else {
+			matchesContainer.setAttribute("hidden", "");
+		}
+	}
+	
+	return container;
+}
+
 function createDescriptionObject(label, value) {
     const paragraph = document.createElement("p");
     paragraph.innerHTML = "<b>"+label+":</b> "+value;
@@ -108,7 +148,9 @@ function createTournamentElements(data) {
 			createDescriptionObject("Date (MM/DD/YY)", info.dateSpan),
 			createDescriptionObject("Placement", info.placement),
 			createDescriptionObject("Team name", info.team),
-			createPlayerList(info.players)
+			createPlayerList(info.players),
+			// info.matches == undefined ? null : document.createElement("hr"),
+			info.matches == undefined ? null : createMatchesDropdown(info.matches)
 		);
 		
 		mainContainer.appendChild(dropdown);
