@@ -2,6 +2,8 @@ var winCount = 0;
 var ffWinCount = 0;
 var ffLossCount = 0;
 var totalMatches = 0;
+var totalQualifiers = 0;
+var totalDNQ = 0;
 var pointsWon = 0;
 var pointsLost = 0;
 var firstPlaces = 0;
@@ -25,10 +27,12 @@ function createMatchText(match) {
 		text.innerHTML += "</br>"+match.notes;
 	}
 	
-	totalMatches += 1;
 	if (match.myScore != undefined && match.oScore != undefined) {
 		pointsWon += Math.max(0, match.myScore);
 		pointsLost += Math.max(0, match.oScore);
+		totalMatches += 1;
+	} else {
+		totalQualifiers += 1;
 	}
 	if (match.myScore > match.oScore) {
 		
@@ -200,6 +204,9 @@ function createTournamentElements(data) {
 		if (info.placement.startsWith("3rd")) {
 			thirdPlaces += 1;
 		}
+		if (info.placement.includes("DNQ")) {
+			totalDNQ += 1;
+		}
 	}
 	
 	for (const item of [["Hosted", data.hosted], ["Mappooled", data.mappooled], ["Streamed", data.streamed], ["Reffed", data.reffed]]) {
@@ -222,8 +229,11 @@ function createTournamentElements(data) {
 		statsContainer.appendChild(p);
 	}
 	
-	addStat("Matches played: "+totalMatches);
+	addStat(`Matches played: ${totalMatches}`);
 	addStat(`Matches won/lost: ${winCount}/${totalMatches-winCount} (${(winCount / totalMatches * 100).toPrecision(4)}% wr)`);
+	addStat(`Qualifiers played: ${totalQualifiers}`);
+	const totalQualify = totalQualifiers-totalDNQ;
+	addStat(`Qualify rate: ${totalQualify}/${totalQualifiers} (${(totalQualify / totalQualifiers * 100).toPrecision(4)}%)`);
 	addStat(`FF win/loss count: ${ffWinCount}/${ffLossCount}`);
 	addStat(`Points won/lost: ${pointsWon}/${pointsLost}`);
 	addStat(`#1 placements: ${firstPlaces}`);

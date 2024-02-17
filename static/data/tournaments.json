@@ -104,6 +104,13 @@
 			"name": "Matho's osu! Tournament",
 			"link": "https://osu.ppy.sh/community/forums/topics/1856193?n=1",
 			"description": "A standard 2v2 TS4 tournament with two brackets of rank ranges 1-9,999 and 10,000-110,000."
+		},
+		{
+			"id": 16,
+			"acronym": "KNC4",
+			"name": "Konoha Cup 4",
+			"link": "https://osu.ppy.sh/community/forums/topics/1824471?n=1",
+			"description": "A standard 3v3 TS6 draft tournament in the rank range 7.5k to 35k (with BWS)."
 		}
     ],
     "played": [
@@ -406,6 +413,19 @@
 			]
 		},
 		{
+			"tournamentId": 16,
+			"team": "N/A",
+			"players": [],
+			"placement": "DNQ did not get drafted",
+			"dateSpan": "6/16/23",
+			"matches": [
+				{
+					"id": 109519826,
+					"round": "Individual Qualifiers"
+				}
+			]
+		},
+		{
 			"tournamentId": 11,
 			"team": "team name guh",
 			"players": [
@@ -503,7 +523,8 @@
 			"matches": [
 				{
 					"id": 110983079,
-					"round": "Qualifiers"
+					"round": "Qualifiers",
+					"notes": "Would've qual'd if KingArt didn't get screened 😔"
 				}
 			]
 		},
