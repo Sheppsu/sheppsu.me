@@ -1,3 +1,48 @@
+var winCount = 0;
+var ffWinCount = 0;
+var ffLossCount = 0;
+var totalMatches = 0;
+var pointsWon = 0;
+var pointsLost = 0;
+var firstPlaces = 0;
+var secondPlaces = 0;
+var thirdPlaces = 0;
+
+
+function createMatchText(match) {
+	const text = document.createElement("p");
+		
+	if (match.myScore == null) {
+		text.innerHTML = `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.round}</a>`;
+	} else {
+		const scoreClass = match.myScore > match.oScore ? "win-text" : "loss-text";
+		const score = (match.myScore == -1 || match.oScore == -1) ? "FF" : `${match.myScore}-${match.oScore}`;
+		const opponent = match.id == null ? match.opponent : `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.opponent}</a>`;
+		text.innerHTML = `<span class="${scoreClass}">${score}</span> <b>${match.round}</b> vs ${opponent}`;
+	}
+	
+	if (match.notes != undefined) {
+		text.innerHTML += "</br>"+match.notes;
+	}
+	
+	totalMatches += 1;
+	if (match.myScore != undefined && match.oScore != undefined) {
+		pointsWon += Math.max(0, match.myScore);
+		pointsLost += Math.max(0, match.oScore);
+	}
+	if (match.myScore > match.oScore) {
+		
+		winCount += 1;
+		if (match.oScore == -1) {
+			ffWinCount += 1;
+		} else if (match.myScore == -1) {
+			ffLossCount += 1;
+		}
+	}
+		
+	return text;
+}
+
 function createMatchesDropdown(matches) {
 	const container = document.createElement("div");
 	
@@ -12,19 +57,7 @@ function createMatchesDropdown(matches) {
 	container.appendChild(matchesContainer);
 	
 	for (const match of matches) {
-		const text = document.createElement("p");
-		if (match.myScore == null) {
-			text.innerHTML = `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.round}</a>`;
-		} else {
-			const scoreClass = match.myScore > match.oScore ? "win-text" : "loss-text";
-			const score = (match.myScore == -1 || match.oScore == -1) ? "FF" : `${match.myScore}-${match.oScore}`;
-			const opponent = match.id == null ? match.opponent : `<a href="https://osu.ppy.sh/mp/${match.id}" target="_blank">${match.opponent}</a>`;
-			text.innerHTML = `<span class="${scoreClass}">${score}</span> <b>${match.round}</b> vs ${opponent}`;
-		}
-		if (match.notes != undefined) {
-			text.innerHTML += "</br>"+match.notes;
-		}
-		matchesContainer.appendChild(text);
+		matchesContainer.appendChild(createMatchText(match));
 	}
 	
 	matchesLabel.onclick = function() {
@@ -134,6 +167,10 @@ function createTournamentElements(data) {
 	
 	const mainContainer = document.getElementById("main-container");
 	
+	mainContainer.appendChild(createDivider("Tournament Stats"));
+	const statsContainer = document.createElement("div");
+	mainContainer.appendChild(statsContainer);
+	
 	mainContainer.appendChild(createDivider("Played in"));
 	
 	for (const info of data.played) {
@@ -149,11 +186,20 @@ function createTournamentElements(data) {
 			createDescriptionObject("Placement", info.placement),
 			createDescriptionObject("Team name", info.team),
 			createPlayerList(info.players),
-			// info.matches == undefined ? null : document.createElement("hr"),
 			info.matches == undefined ? null : createMatchesDropdown(info.matches)
 		);
 		
 		mainContainer.appendChild(dropdown);
+		
+		if (info.placement.startsWith("1st")) {
+			firstPlaces += 1;
+		}
+		if (info.placement.startsWith("2nd")) {
+			secondPlaces += 1;
+		}
+		if (info.placement.startsWith("3rd")) {
+			thirdPlaces += 1;
+		}
 	}
 	
 	for (const item of [["Hosted", data.hosted], ["Mappooled", data.mappooled], ["Streamed", data.streamed], ["Reffed", data.reffed]]) {
@@ -169,6 +215,20 @@ function createTournamentElements(data) {
 			mainContainer.appendChild(dropdown);
 		}
 	}
+	
+	function addStat(text) {
+		const p = document.createElement("p");
+		p.innerHTML = text;
+		statsContainer.appendChild(p);
+	}
+	
+	addStat("Matches played: "+totalMatches);
+	addStat(`Matches won/lost: ${winCount}/${totalMatches-winCount} (${(winCount / totalMatches * 100).toPrecision(4)}% wr)`);
+	addStat(`FF win/loss count: ${ffWinCount}/${ffLossCount}`);
+	addStat(`Points won/lost: ${pointsWon}/${pointsLost}`);
+	addStat(`#1 placements: ${firstPlaces}`);
+	addStat(`#2 placements: ${secondPlaces}`);
+	addStat(`#3 placements: ${thirdPlaces}`);
 }
 
 fetch("static/data/tournaments.json").then(response => {
