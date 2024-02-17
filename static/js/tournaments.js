@@ -175,7 +175,7 @@ function createTournamentElements(data) {
 	const statsContainer = document.createElement("div");
 	mainContainer.appendChild(statsContainer);
 	
-	mainContainer.appendChild(createDivider("Played in"));
+mainContainer.appendChild(createDivider(`Played (${data.played.length})`));
 	
 	for (const info of data.played) {
 		const tournament = getTournament(info.tournamentId);
@@ -210,7 +210,7 @@ function createTournamentElements(data) {
 	}
 	
 	for (const item of [["Hosted", data.hosted], ["Mappooled", data.mappooled], ["Streamed", data.streamed], ["Reffed", data.reffed]]) {
-		mainContainer.appendChild(createDivider(item[0]));
+		mainContainer.appendChild(createDivider(item[0]+` (${item[1].length})`));
 		for (const id of item[1]) {
 			const tournament = getTournament(id);
 			const dropdown = createDropdown(
