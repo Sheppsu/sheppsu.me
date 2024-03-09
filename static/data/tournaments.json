@@ -111,6 +111,20 @@
 			"name": "Konoha Cup 4",
 			"link": "https://osu.ppy.sh/community/forums/topics/1824471?n=1",
 			"description": "A standard 3v3 TS6 draft tournament in the rank range 7.5k to 35k (with BWS)."
+		},
+		{
+			"id": 17,
+			"acronym": "AT3",
+			"name": "Ancient Tournament 3",
+			"link": "https://osu.ppy.sh/community/forums/topics/1870436?n=1",
+			"description": "Standard 2v2 TS4 tournament, but mappool consists of only 2007-2014 maps."
+		},
+		{
+			"id": 18,
+			"acronym": "SSET",
+			"name": "Sheppsu's Super Easy Tournament",
+			"link": "https://osu.ppy.sh/community/forums/topics/1893769?n=1",
+			"description": "SSET is a standard open-rank 1v1 tournament, but every map requires the Easy mod."
 		}
     ],
     "played": [
@@ -574,7 +588,7 @@
 				}
 			],
 			"placement": "32nd-17th of 77",
-			"dateSpan": "11/26/2023 - 12/10/2023",
+			"dateSpan": "11/26/23 - 12/10/23",
 			"matches": [
 				{
 					"id": 111470430,
@@ -595,10 +609,51 @@
 					"oScore": 5
 				}
 			]
+		},
+		{
+			"tournamentId": 17,
+			"team": "aizheimer's",
+			"players": [
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 13980
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 15388
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 21013
+				},
+				{
+					"name": "Akari-",
+					"id": 341591,
+					"rank": 16900
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "2/25/24",
+			"matches": [
+				{
+					"id": 112830560,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 112927100,
+					"round": "Round of 32",
+					"opponent": "Life Is lego",
+					"myScore": 2,
+					"oScore": 5
+				}
+			]
 		}
     ],
-    "hosted": [4, 10, 14],
-    "reffed": [1, 5, 8, 10, 14, 15],
-    "streamed": [2, 3, 7, 4, 9, 10, 14],
-    "mappooled": [4, 10, 14, 15]
+    "hosted": [4, 10, 14, 18],
+    "reffed": [1, 5, 8, 10, 14, 15, 18],
+    "streamed": [2, 3, 7, 4, 9, 10, 14, 18],
+    "mappooled": [4, 10, 14, 15, 18]
 }
