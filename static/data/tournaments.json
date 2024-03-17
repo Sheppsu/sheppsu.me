@@ -656,10 +656,27 @@
 				},
 				{
 					"id": 113021063,
-					"round": "Round of 16",
+					"round": "Losers Round of 16",
 					"opponent": "gavno",
 					"myScore": 5,
-					"oScore": 3
+					"oScore": 3,
+					"notes": "bottom scored my locals on everything I was in for 🔥🔥"
+				},
+				{
+					"id": 113102682,
+					"round": "Losers Quarterfinals",
+					"opponent": "Big Plushy MIKU",
+					"myScore": 6,
+					"oScore": 4,
+					"notes": "my team put up some goated scores, nice win"
+				},
+				{
+					"id": 113120336,
+					"round": "Losers Quaterfinals",
+					"opponent": "Team (sus)umu Fish",
+					"myScore": 2,
+					"oScore": 6,
+					"notes": "No poiman sadly 😔 but I think we still lose. My scores this match were meh. I need to play more low ar hd because my aim is so inconsistent on it. I could've practice ez1 more and we might've won it."
 				}
 			]
 		}
