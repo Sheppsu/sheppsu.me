@@ -125,6 +125,13 @@
 			"name": "Sheppsu's Super Easy Tournament",
 			"link": "https://osu.ppy.sh/community/forums/topics/1893769?n=1",
 			"description": "SSET is a standard open-rank 1v1 tournament, but every map requires the Easy mod."
+		},
+		{
+			"id": 19,
+			"acronym": "USARTT5",
+			"name": "USA Random Team Tournament 5",
+			"link": "https://docs.google.com/spreadsheets/d/1Bpf5bnsIdDgxYg4SM1FYjSDtzvkAMPS3TCGw-Jfr8uc/edit#gid=74132699",
+			"description": "4v4 (or 3v3) tournament of 5 digit USA players forming teams of 4 or 5"
 		}
     ],
     "played": [
@@ -640,8 +647,8 @@
 					"rank": 16900
 				}
 			],
-			"placement": "N/A",
-			"dateSpan": "2/25/24",
+			"placement": "12th-16th out of 52",
+			"dateSpan": "2/25/24 - 3/17/24",
 			"matches": [
 				{
 					"id": 112830560,
@@ -678,6 +685,44 @@
 					"myScore": 2,
 					"oScore": 6,
 					"notes": "No poiman sadly 😔 but I think we still lose. My scores this match were meh. I need to play more low ar hd because my aim is so inconsistent on it. I could've practice ez1 more and we might've won it."
+				}
+			]
+		},
+		{
+			"tournamentId": 19,
+			"team": "carbon emissions are a",
+			"players": [
+				{
+					"name": "Chevy-",
+					"id": 17274293,
+					"rank": 19989
+				},
+				{
+					"name": "Sylliant",
+					"id": 18793670,
+					"rank": 28756
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 21473
+				},
+				{
+					"name": "Lenny-",
+					"id": 12538697,
+					"rank": 39640
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "3/23/24",
+			"matches": [
+				{
+					"id": 113187049,
+					"round": "Round of 16",
+					"opponent": "Team J",
+					"myScore": 1,
+					"oScore": 5,
+					"notes": "Chevy and Sylliant were tired and not playing well today... can't be helped. My scores were fine, except fm3, which I should've fcd. I literally fcd with hd right before going in. I could've also made the diff on nm3 if I didn't shitmiss. Our loss on dt3 by 4k points was also unfortunate since sylliant and chevy fcd."
 				}
 			]
 		}
