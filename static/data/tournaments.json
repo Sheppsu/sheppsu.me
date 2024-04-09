@@ -132,6 +132,13 @@
 			"name": "USA Random Team Tournament 5",
 			"link": "https://docs.google.com/spreadsheets/d/1Bpf5bnsIdDgxYg4SM1FYjSDtzvkAMPS3TCGw-Jfr8uc/edit#gid=74132699",
 			"description": "4v4 (or 3v3) tournament of 5 digit USA players forming teams of 4 or 5"
+		},
+		{
+			"id": 20,
+			"acronym": "EZWC",
+			"name": "EZ World Cup",
+			"link": "https://osu.ppy.sh/community/forums/topics/1894191?n=1",
+			"description": "3v3 TS6 tournament, where each team represents a country (or two). Open rank, all maps include the EZ mod, and mappools are non-standard."
 		}
     ],
     "played": [
@@ -736,7 +743,7 @@
 		}
     ],
     "hosted": [4, 10, 14, 18],
-    "reffed": [1, 5, 8, 10, 14, 15, 18],
+    "reffed": [1, 5, 8, 10, 14, 15, 18, 20],
     "streamed": [2, 3, 7, 4, 9, 10, 14, 18],
     "mappooled": [4, 10, 14, 15, 18]
 }
