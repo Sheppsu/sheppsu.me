@@ -146,6 +146,13 @@
 			"name": "Offline Chat Achievement Hunt",
 			"link": "https://oct.sheppsu.me",
 			"description": "Note: as of writing, the sector of the site for the achievement hunt is still in development. This 'tournament' is an event where teams have 9 days (including two weekends) to complete as many achievements as possible; achievements are *not* osu medals, but are listed on the site and include a range of explicit tasks, clue-based puzzles, and even other types. Point system is cumulative across all achievements and based on the number of other teams that complete the same achievement."
+		},
+		{
+			"id": 22,
+			"acronym": "CCC",
+			"name": "Community Clash Cup",
+			"link": "https://osu.ppy.sh/community/forums/topics/1918843?n=1",
+			"description": "4v4 TS5-7 player-tiered tournament with three separate rank restrictions. Tier 1 (1 player): 1-infinity. Tier 2 (1 player): 3k-infinity. Tier 3 (3-5 players): 10k-infinity. Also some other tiering rules for matches."
 		}
     ],
     "played": [
@@ -745,6 +752,55 @@
 					"myScore": 1,
 					"oScore": 6,
 					"notes": "Had to 3v3 without our captain because of scheduling issues, which is quite unfortunate. I underperformed every map that I was meant to get a good score on, so that's disappointing :( I could've made the difference on a few maps if I was performing at par"
+				}
+			]
+		},
+		{
+			"tournamentId": 22,
+			"team": "kentucky",
+			"players": [
+				{
+					"name": "Joyi",
+					"id": 12776754,
+					"rank": 989
+				},
+				{
+					"name": "Zeeno",
+					"id": 11273927,
+					"rank": 8872
+				},
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 14417
+				},
+				{
+					"name": "catgirl enjoyer",
+					"id": 18319269,
+					"rank": 46268
+				},
+				{
+					"name": "SirShyLordy",
+					"id": 9890753,
+					"rank": 12236
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 23015
+				},
+				{
+					"name": "MrSparklePants",
+					"id": 11182399,
+					"rank": 16974
+				}
+			],
+			"placement": "DNQ 27th of 31",
+			"dateSpan": "6/8/24",
+			"matches": [
+				{
+					"id": 114211139,
+					"round": "Qualifiers"
 				}
 			]
 		}
