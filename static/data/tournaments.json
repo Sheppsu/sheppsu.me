@@ -37,7 +37,7 @@
 		},
 		{
 			"id": 6,
-			"acronym": "5USC",
+			"acronym": "5USC (2023)",
 			"name": "5 Digit United States Cup",
 			"link": "https://osu.ppy.sh/community/forums/topics/1738300?n=1",
 			"description": "A standard 3v3 tournament with teams of 6 5-digit players from each state in the United States."
@@ -153,6 +153,13 @@
 			"name": "Community Clash Cup",
 			"link": "https://osu.ppy.sh/community/forums/topics/1918843?n=1",
 			"description": "4v4 TS5-7 player-tiered tournament with three separate rank restrictions. Tier 1 (1 player): 1-infinity. Tier 2 (1 player): 3k-infinity. Tier 3 (3-5 players): 10k-infinity. Also some other tiering rules for matches."
+		},
+		{
+			"id": 23,
+			"acronym": "5USC (2024)",
+			"name": "5 Digit United States Cup (2024)",
+			"link": "https://osu.ppy.sh/community/forums/topics/1918062?n=1",
+			"description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
 		}
     ],
     "played": [
@@ -801,6 +808,58 @@
 				{
 					"id": 114211139,
 					"round": "Qualifiers"
+				}
+			]
+		},
+		{
+			"tournamentId": 23,
+			"team": "Kentucky A",
+			"players": [
+				{
+					"name": "SirShyLordy",
+					"id": 9890753,
+					"rank": 12233
+				},
+				{
+					"name": "Aizuuya",
+					"id": 18683125,
+					"rank": 13217
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 16622
+				},
+				{
+					"name": "l scythe l",
+					"id": 16491333,
+					"rank": 12808
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 21842
+				},
+				{
+					"name": "catgirl enjoyer",
+					"id": 18319269,
+					"rank": 40929
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "6/16/2024 - Present",
+			"matches": [
+				{
+					"id": 114324080,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 114412694,
+					"round": "Round of 32",
+					"opponent": "Florida A",
+					"myScore": 4,
+					"oScore": 6,
+					"notes": "So close to coming back from 0-4, but sadly not. Probably the most fun match I've ever played and also sirshy ez fc on fm1 was fucking crazy."
 				}
 			]
 		}
