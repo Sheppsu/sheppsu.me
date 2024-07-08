@@ -188,6 +188,7 @@ mainContainer.appendChild(createDivider(`Played (${data.played.length})`));
 			createDescriptionObject("Sheet/Forum post", "<a href=\""+tournament.link+"\" target=\"_blank\">"+tournament.link+"</a>"),
 			createDescriptionObject("Date (MM/DD/YY)", info.dateSpan),
 			createDescriptionObject("Placement", info.placement),
+			info.notes == undefined ? null : createDescriptionObject("Notes on tournament", info.notes),
 			createDescriptionObject("Team name", info.team),
 			createPlayerList(info.players),
 			info.matches == undefined ? null : createMatchesDropdown(info.matches)
