@@ -4,6 +4,10 @@ th, td {
 	width: 100%;
 }
 
+img {
+	width: 100%;
+}
+
 #main-container {
 	border-style: none;
 }
@@ -33,10 +37,6 @@ th, td {
 
 .tournament-info-container {
     overflow-wrap: break-word;
-}
-
-.banner {
-	width: 100%;
 }
 
 .loss-text {
