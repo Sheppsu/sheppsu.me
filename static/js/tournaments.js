@@ -210,7 +210,7 @@ mainContainer.appendChild(createDivider(`Played (${data.played.length})`));
 		}
 	}
 	
-	for (const item of [["Hosted", data.hosted], ["Mappooled", data.mappooled], ["Streamed", data.streamed], ["Reffed", data.reffed]]) {
+	for (const item of [["Host", data.hosted], ["Admin", data.admin], ["Mappooler", data.mappooled], ["Streamer", data.streamed], ["Refferee", data.reffed]]) {
 		mainContainer.appendChild(createDivider(item[0]+` (${item[1].length})`));
 		for (const id of item[1]) {
 			const tournament = getTournament(id);
