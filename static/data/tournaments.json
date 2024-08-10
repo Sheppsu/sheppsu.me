@@ -160,6 +160,13 @@
 			"name": "5 Digit United States Cup (2024)",
 			"link": "https://osu.ppy.sh/community/forums/topics/1918062?n=1",
 			"description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
+		},
+		{
+			"id": 24,
+			"acronym": "ATMT2",
+			"name": "Abbey's Troll Map Tournament 2",
+			"link": "https://osu.ppy.sh/community/forums/topics/1930724?n=1",
+			"description": "3v3 TS5 5-digit tournament with a player tier system, troll maps, and gimmicky mod rules"
 		}
     ],
     "played": [
@@ -847,7 +854,7 @@
 				}
 			],
 			"placement": "24th - 16th of 35",
-			"dateSpan": "6/16/2024 - 7/7/24",
+			"dateSpan": "6/16/24 - 7/7/24",
 			"matches": [
 				{
 					"id": 114324080,
@@ -879,6 +886,52 @@
 				}
 			],
 			"notes": "was fun, but wish we weren't so unlucky, cuz we otherwise could've made it a bit farther"
+		},
+		{
+			"tournamentId": 24,
+			"team": "80% Kentucky 20% Not Kentucky",
+			"players": [
+				{
+					"name": "catgirl enjoyer",
+					"id": 18319269,
+					"rank": 38259
+				},
+				{
+					"name": "SirShyLordy",
+					"id": 9890753,
+					"rank": 12036
+				},
+				{
+					"name": "MrSparklepants",
+					"id": 11182399,
+					"rank": 15903
+				},
+				{
+					"name": "Sheppsu",
+					"id": 14895608,
+					"rank": 22126
+				},
+				{
+					"name": "IWBTG",
+					"id": 12820940,
+					"rank": 67018
+				}
+			],
+			"placement": "N/A",
+			"dateSpan": "8/4/24 - Present",
+			"matches": [
+				{
+					"id": 114946786,
+					"round": "Qualifiers"
+				},
+				{
+					"id": 115025631,
+					"round": "Round of 32",
+					"opponent": "Fuwari",
+					"myScore": 2,
+					"oScore": 5
+				}
+			]
 		}
     ],
     "hosted": [4, 10, 14, 18, 21],
