@@ -924,8 +924,8 @@
                     "rank": 67018
                 }
             ],
-            "placement": "N/A",
-            "dateSpan": "8/4/24 - Present",
+            "placement": "32nd-17th of 43",
+            "dateSpan": "8/4/24 - 8/18/24",
             "matches": [
                 {
                     "id": 114946786,
@@ -937,7 +937,14 @@
                     "opponent": "Fuwari",
                     "myScore": 2,
                     "oScore": 5
-                }
+                },
+				{
+					"id": 115133299,
+					"round": "Round of 16",
+					"opponent": "The world is changing and I miss you",
+					"myScore": 2,
+					"oScore": 5
+				}
             ]
         }
     ],
