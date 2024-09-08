@@ -174,6 +174,13 @@
             "name": "Ferby's Ambitious Really-Long Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1940253?n=1",
             "description": "1v1 marathon map tournament, where the map length gets progressively longer as the tournament goes on"
+        },
+        {
+            "id": 26,
+            "acronym": "PDC",
+            "name": "Purdue Dsolo Cup",
+            "link": "https://docs.google.com/spreadsheets/d/1vvA_GoR5jF0oaGjYRNyHyIAfqhERm4YnjrDr9uxWGN4/edit?gid=1923100594#gid=1923100594",
+            "description": "Used to be a Duo cup, but was changed to 1v1"
         }
     ],
     "played": [
@@ -938,13 +945,38 @@
                     "myScore": 2,
                     "oScore": 5
                 },
-				{
-					"id": 115133299,
-					"round": "Round of 16",
-					"opponent": "The world is changing and I miss you",
-					"myScore": 2,
-					"oScore": 5
-				}
+                {
+                    "id": 115133299,
+                    "round": "Round of 16",
+                    "opponent": "The world is changing and I miss you",
+                    "myScore": 2,
+                    "oScore": 5
+                }
+            ]
+        },
+        {
+            "tournamentId": 26,
+            "team": "Sheppsu",
+            "players": [
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 22447
+                }
+            ],
+            "placement": "N/A",
+            "dateSpan": "8/29/24 - present",
+            "matches": [
+                {
+                    "id": 115291449,
+                    "round": "Qualifiers",
+                    "notes": "no good scores :("
+                },
+                {
+                    "id": 115423720,
+                    "round": "Quarterfinals",
+                    "notes": "Somewhat close match :D could've been closer if I didn't troll nm1 or hd1. Scores overall were okay"
+                }
             ]
         }
     ],
