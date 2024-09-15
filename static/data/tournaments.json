@@ -1,181 +1,155 @@
 {
-    "tournaments": [
-        {
+    "tournaments": [{
             "id": 1,
             "acronym": "USARTT4",
             "name": "USA Random Team Tournament 4",
             "link": "https://docs.google.com/spreadsheets/d/1ErIUZVElLBtBNpRSi31YVoFjdK6qOK0o7YgTFbPBbvk/edit#gid=946125474",
             "description": "4v4 tournament of 5 digit USA players forming teams of 4 or 5"
-        },
-        {
+        }, {
             "id": 2,
             "acronym": "OCT",
             "name": "Offline Chat Tournament",
             "link": "https://docs.google.com/spreadsheets/d/1jnAzEyao183Pn35rYTYl7Z-J_QmikdUmZcL-Xyr5NEs/edit#gid=31255872",
             "description": "A standard 1v1 tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
-        },
-        {
+        }, {
             "id": 3,
             "acronym": "OCT2",
             "name": "Offline Chat Tournament 2",
             "link": "https://docs.google.com/spreadsheets/d/1OpKgXsUBgqKMkBfmUZacDmPoyutQe3LuTCdpehmlsEo/edit#gid=1203128363",
             "description": "A standard 2v2 (teams of 4) tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
-        },
-        {
+        }, {
             "id": 4,
             "acronym": "OCT3",
             "name": "Offline Chat Tournament 3",
             "link": "https://docs.google.com/spreadsheets/d/1C9ml7TqW7ePh3PzIMKMTFk8OJp1S7_3xrO66-0IFCrc/edit#gid=0",
             "description": "A standard 1v1 tournament hosted for people in the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
-        },
-        {
+        }, {
             "id": 5,
             "acronym": "5DNAD",
             "name": "5 Digit North American Draft",
             "link": "https://osu.ppy.sh/community/forums/topics/1741206?n=1",
             "description": "A 4v4 draft tournament with teams of 8 players. Limited to 5 digit North American players."
-        },
-        {
+        }, {
             "id": 6,
             "acronym": "5USC (2023)",
             "name": "5 Digit United States Cup",
             "link": "https://osu.ppy.sh/community/forums/topics/1738300?n=1",
             "description": "A standard 3v3 tournament with teams of 6 5-digit players from each state in the United States."
-        },
-        {
+        }, {
             "id": 7,
             "acronym": "TDT",
             "name": "Texas Draft Tournament",
             "link": "https://docs.google.com/spreadsheets/d/1eUNdh3XWYvp_k_UVA-QrBHRTVfQiHDdpzE9d_CQzaIY/edit#gid=332367410",
             "description": "Draft tournament for Texas players."
-        },
-        {
+        }, {
             "id": 8,
             "acronym": "5THC",
             "name": "5 Digit Touhou Cup",
             "link": "https://osu.ppy.sh/community/forums/topics/1766738?n=1",
             "description": "5THC is an international 3v3 TS6 tournament. It features touhou-only pools and anyone from rank 10k or below can join."
-        },
-        {
+        }, {
             "id": 9,
             "acronym": "SUT",
             "name": "Shake Up Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1777003?n=1",
             "description": "1v1 tournament with gimmicky rules and non-standard pooling."
-        },
-        {
+        }, {
             "id": 10,
             "acronym": "OCT4",
             "name": "Offline Chat Tournament 4",
             "link": "https://oct.sheppsu.me/tournaments/OCT4",
             "description": "A 2v2 TS5 draft tournament that uses a tiering system. This is the 4th iteration of OCT, hosted for the BTMC offline chat community. Note: BTMC himself doesn't have any official affiliation with this tournament."
-        },
-        {
+        }, {
             "id": 11,
             "acronym": "AGT",
             "name": "Another Generic Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1806937?n=1",
             "description": "A standard 2v2 TS4 tournament with rank range 10k-99,999."
-        },
-        {
+        }, {
             "id": 12,
             "acronym": "CCC",
             "name": "Chronicler Conquest Chronicles",
             "link": "https://osu.ppy.sh/community/forums/topics/1818839?n=1",
             "description": "3v3 TS6 tournament with raid map gimmick"
-        },
-        {
+        }, {
             "id": 13,
             "acronym": "FRX",
             "name": "Fulminare Redux",
             "link": "https://osu.ppy.sh/community/forums/topics/1835614?n=1",
             "description": "Relatively standard 4v4 TS8 tournament with 5 digit rank range and non-standard pooling. Mappool is divided into 'mechanical' and 'technical' pools."
-        },
-        {
+        }, {
             "id": 14,
             "acronym": "OCT5",
             "name": "Offline Chat Tournament 5",
             "link": "https://oct.sheppsu.me/tournaments/OCT5",
             "description": "A standard 1v1 tournament and the 5th iteration of OCT, hosted for (mainly) the BTMC offline chat community. Note: BTMC has no official affiliation with the tournament."
-        },
-        {
+        }, {
             "id": 15,
             "acronym": "MOT",
             "name": "Matho's osu! Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1856193?n=1",
             "description": "A standard 2v2 TS4 tournament with two brackets of rank ranges 1-9,999 and 10,000-110,000."
-        },
-        {
+        }, {
             "id": 16,
             "acronym": "KNC4",
             "name": "Konoha Cup 4",
             "link": "https://osu.ppy.sh/community/forums/topics/1824471?n=1",
             "description": "A standard 3v3 TS6 draft tournament in the rank range 7.5k to 35k (with BWS)."
-        },
-        {
+        }, {
             "id": 17,
             "acronym": "AT3",
             "name": "Ancient Tournament 3",
             "link": "https://osu.ppy.sh/community/forums/topics/1870436?n=1",
             "description": "Standard 2v2 TS4 tournament, but mappool consists of only 2007-2014 maps."
-        },
-        {
+        }, {
             "id": 18,
             "acronym": "SSET",
             "name": "Sheppsu's Super Easy Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1893769?n=1",
             "description": "SSET is a standard open-rank 1v1 tournament, but every map requires the Easy mod."
-        },
-        {
+        }, {
             "id": 19,
             "acronym": "USARTT5",
             "name": "USA Random Team Tournament 5",
             "link": "https://docs.google.com/spreadsheets/d/1Bpf5bnsIdDgxYg4SM1FYjSDtzvkAMPS3TCGw-Jfr8uc/edit#gid=74132699",
             "description": "4v4 (or 3v3) tournament of 5 digit USA players forming teams of 4 or 5"
-        },
-        {
+        }, {
             "id": 20,
             "acronym": "EZWC",
             "name": "EZ World Cup",
             "link": "https://osu.ppy.sh/community/forums/topics/1894191?n=1",
             "description": "3v3 TS6 tournament, where each team represents a country (or two). Open rank, all maps include the EZ mod, and mappools are non-standard."
-        },
-        {
+        }, {
             "id": 21,
             "acronym": "OCAH",
             "name": "Offline Chat Achievement Hunt",
             "link": "https://ocah.sheppsu.me",
             "description": "This 'tournament' is an event where teams have 9 days (including two weekends) to complete as many achievements as possible; achievements are *not* osu medals, but are listed on the site and include a range of explicit tasks, clue-based puzzles, and even other types. Point system is cumulative across all achievements and based on the number of other teams that complete the same achievement."
-        },
-        {
+        }, {
             "id": 22,
             "acronym": "CCC",
             "name": "Community Clash Cup",
             "link": "https://osu.ppy.sh/community/forums/topics/1918843?n=1",
             "description": "4v4 TS5-7 player-tiered tournament with three separate rank restrictions. Tier 1 (1 player): 1-infinity. Tier 2 (1 player): 3k-infinity. Tier 3 (3-5 players): 10k-infinity. Also some other tiering rules for matches."
-        },
-        {
+        }, {
             "id": 23,
             "acronym": "5USC (2024)",
             "name": "5 Digit United States Cup (2024)",
             "link": "https://osu.ppy.sh/community/forums/topics/1918062?n=1",
             "description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
-        },
-        {
+        }, {
             "id": 24,
             "acronym": "ATMT2",
             "name": "Abbey's Troll Map Tournament 2",
             "link": "https://osu.ppy.sh/community/forums/topics/1930724?n=1",
             "description": "3v3 TS5 5-digit tournament with a player tier system, troll maps, and gimmicky mod rules"
-        },
-        {
+        }, {
             "id": 25,
             "acronym": "FART",
             "name": "Ferby's Ambitious Really-Long Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/1940253?n=1",
             "description": "1v1 marathon map tournament, where the map length gets progressively longer as the tournament goes on"
-        },
-        {
+        }, {
             "id": 26,
             "acronym": "PSC",
             "name": "Purdue Solo Cup",
@@ -183,27 +157,22 @@
             "description": "purdue osu club 1v1 tournament"
         }
     ],
-    "played": [
-        {
+    "played": [{
             "tournamentId": 3,
             "team": "Tasty",
-            "players": [
-                {
+            "players": [{
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 60887
-                },
-                {
+                }, {
                     "name": "1TB SSD",
                     "id": 14479923,
                     "rank": 58881
-                },
-                {
+                }, {
                     "name": "WillyBoi69",
                     "id": 12931540,
                     "rank": 71610
-                },
-                {
+                }, {
                     "name": "UYcactus",
                     "id": 17980345,
                     "rank": 90000
@@ -211,43 +180,36 @@
             ],
             "placement": "7th-8th out of 8",
             "dateSpan": "11/12/21 - 11/28/21"
-        },
-        {
+        }, {
             "tournamentId": 1,
             "team": "RTT Team",
-            "players": [
-                {
-                    "name": "FelixSosa", 
-                    "id": 17958667, 
+            "players": [{
+                    "name": "FelixSosa",
+                    "id": 17958667,
                     "rank": 11485
-                }, 
-                {
-                    "name": "MEGA PESCADO", 
-                    "id": 25306176, 
+                }, {
+                    "name": "MEGA PESCADO",
+                    "id": 25306176,
                     "rank": 10170
-                }, 
-                {
-                    "name": "Sylliant", 
-                    "id": 18793670, 
+                }, {
+                    "name": "Sylliant",
+                    "id": 18793670,
                     "rank": 35909
-                }, 
-                {
-                    "name": "Sheppsu", 
-                    "id": 14895608, 
+                }, {
+                    "name": "Sheppsu",
+                    "id": 14895608,
                     "rank": 20399
                 }
             ],
             "placement": "13th-16th out of 16",
             "dateSpan": "3/12/23 - 3/26/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 107457865,
                     "round": "Round of 16",
                     "opponent": "tinyurl.com/yeyrj5t4",
                     "myScore": 3,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 107606592,
                     "round": "Quarterfinals",
                     "opponent": "niko nm2 incident",
@@ -255,37 +217,30 @@
                     "oScore": 6
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 6,
             "team": "Kentucky A",
-            "players": [
-                {
+            "players": [{
                     "name": "SirShyLord",
                     "id": 9890753,
                     "rank": 12282
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 20461
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 15111
-                },
-                {
+                }, {
                     "name": "Akari-",
                     "id": 341591,
                     "rank": 21890
-                },
-                {
+                }, {
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 14281
-                },
-                {
+                }, {
                     "name": "ThisFatty",
                     "id": 10808688,
                     "rank": 54291
@@ -293,33 +248,28 @@
             ],
             "placement": "13-16th out of 33",
             "dateSpan": "4/15/23 - 5/7/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 107995878,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 108133092,
                     "round": "Round of 32",
                     "opponent": "Stateless A",
                     "myScore": 1,
                     "oScore": 6
-                },
-                {
+                }, {
                     "id": 108252866,
                     "round": "Losers Round of 16",
                     "opponent": "Oregon A",
                     "myScore": 6,
                     "oScore": 3
-                },
-                {
+                }, {
                     "id": 108355114,
                     "round": "Losers Quarterfinals",
                     "opponent": "Oklahoma A",
                     "myScore": 6,
                     "oScore": 2
-                },
-                {
+                }, {
                     "id": 108375711,
                     "round": "Losers Quarterfinals",
                     "opponent": "Washington A",
@@ -327,47 +277,38 @@
                     "oScore": 6
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 5,
             "team": "flatpaper my mommy 😍",
-            "players": [
-                {
+            "players": [{
                     "name": "FelixSosa",
                     "id": 17958667,
                     "rank": 3986
-                },
-                {
+                }, {
                     "name": "Samba",
                     "id": 4010492,
                     "rank": 18680
-                },
-                {
+                }, {
                     "name": "kymotsujason",
                     "id": 2541804,
                     "rank": 49093
-                },
-                {
+                }, {
                     "name": "-Aiba-",
                     "id": 15641344,
                     "rank": 17087
-                },
-                {
+                }, {
                     "name": "Sylliant",
                     "id": 18793670,
                     "rank": 35551
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 20377
-                },
-                {
+                }, {
                     "name": "p0keyy",
                     "id": 11771664,
                     "rank": 16051
-                },
-                {
+                }, {
                     "name": "Nevarinn",
                     "id": 12062155,
                     "rank": 40633
@@ -376,50 +317,43 @@
             "placement": "2nd of 16",
             "dateSpan": "4/23/23 - 6/11/23",
             "banner": "https://media.sheppsu.me/blLW1kMQs9k",
-            "matches": [
-                {
+            "matches": [{
                     "id": 108197214,
                     "round": "Swiss Round 1",
                     "opponent": "G-Force",
                     "myScore": 5,
                     "oScore": 3
-                },
-                {
+                }, {
                     "id": 108354161,
                     "round": "Swiss Round 2",
                     "opponent": "rankly↨rank right meow",
                     "myScore": 4,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 108494856,
                     "round": "Swiss Round 3",
                     "opponent": "cool dog",
                     "myScore": 6,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 108584039,
                     "round": "Swiss Round 4",
                     "opponent": "Lexic Paycheck",
                     "myScore": 6,
                     "oScore": 4
-                },
-                {
+                }, {
                     "id": 108827870,
                     "round": "Quarterfinals",
                     "opponent": "25$ to go 0-3",
                     "myScore": 7,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 108875596,
                     "round": "Semifinals",
                     "opponent": "rankly↨rank right meow",
                     "myScore": 7,
                     "oScore": 6
-                },
-                {
+                }, {
                     "id": 108962065,
                     "round": "Finals",
                     "opponent": "bluenerds",
@@ -427,37 +361,30 @@
                     "oScore": 7
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 8,
             "team": "Old Man Carry",
-            "players": [
-                {
+            "players": [{
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 15143
-                },
-                {
+                }, {
                     "name": "MrSparklePants",
                     "id": 11182399,
                     "rank": 15643
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 21171
-                },
-                {
+                }, {
                     "name": "-Rykker",
                     "id": 20144836,
                     "rank": 50336
-                },
-                {
+                }, {
                     "name": "pure_conpollo",
                     "id": 21364718,
                     "rank": 47734
-                },
-                {
+                }, {
                     "name": "KryptonKen",
                     "id": 21787443,
                     "rank": 71025
@@ -465,19 +392,16 @@
             ],
             "placement": "24th-32nd of 61",
             "dateSpan": "6/19/22 - 7/2/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 109090318,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 109185429,
                     "round": "Round of 32",
                     "opponent": "вумук",
                     "myScore": 0,
                     "oScore": 6
-                },
-                {
+                }, {
                     "id": 109301100,
                     "round": "Losers Round of 16",
                     "opponent": "Cartoonknight Fan Club",
@@ -486,40 +410,33 @@
                     "notes": "This match was actually cursed cuz the match went to TB but we missed out on two easy points because 1. my game crashed during one of the FMs that we would've otherwise won, and 2. I underperformed so hard on the nm3 which we barely lost."
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 16,
             "team": "N/A",
             "players": [],
             "placement": "DNQ did not get drafted",
             "dateSpan": "6/16/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 109519826,
                     "round": "Individual Qualifiers"
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 11,
             "team": "team name guh",
-            "players": [
-                {
+            "players": [{
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 15653
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 19829
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 15187
-                },
-                {
+                }, {
                     "name": "vAsobii-",
                     "id": 16660532,
                     "rank": 11864
@@ -527,33 +444,28 @@
             ],
             "placement": "12th-16th of 95",
             "dateSpan": "9/8/23 - 10/1/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 110421223,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 110504309,
                     "round": "Round of 32",
                     "opponent": "Romania 5WC",
                     "myScore": 2,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": null,
                     "round": "Losers Round of 16",
                     "opponent": "Крокозябрики",
                     "myScore": 0,
                     "oScore": -1
-                },
-                {
+                }, {
                     "id": null,
                     "round": "Losers Quarterfinals",
                     "opponent": "si",
                     "myScore": 0,
                     "oScore": -1
-                },
-                {
+                }, {
                     "id": 110703489,
                     "round": "Losers Quarterfinals",
                     "opponent": "Raoul Fanclub",
@@ -562,32 +474,26 @@
                     "notes": "was so close to clutching up on the tb IF I COULD COMBOOOO 😭😭"
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 12,
             "team": "Colonel Sanders vs The World",
-            "players": [
-                {
+            "players": [{
                     "name": "SirShyLordy",
                     "id": 9890753,
                     "rank": 13614
-                },
-                {
+                }, {
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 15051
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 19969
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 14297
-                },
-                {
+                }, {
                     "name": "yuutsu",
                     "id": 16709379,
                     "rank": 46271
@@ -595,54 +501,44 @@
             ],
             "placement": "DNQ 36th of 59",
             "dateSpan": "10/21/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 110983079,
                     "round": "Qualifiers",
                     "notes": "Would've qual'd if KingArt didn't get screened 😔"
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 13,
             "team": "aizzes faire",
-            "players": [
-                {
+            "players": [{
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 14277
-                },
-                {
+                }, {
                     "name": "SirShyLordy",
                     "id": 9890753,
                     "rank": 13989
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 20181
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 20181
-                },
-                {
+                }, {
                     "name": "Akari-",
                     "id": 341591,
                     "rank": 16678
-                },
-                {
+                }, {
                     "name": "pure_conpollo",
                     "id": 21364718,
                     "rank": 27446
-                },
-                {
+                }, {
                     "name": "-Rykker",
                     "id": 20144836,
                     "rank": 39123
-                },
-                {
+                }, {
                     "name": "zane-",
                     "id": 26576878,
                     "rank": 13216
@@ -650,19 +546,16 @@
             ],
             "placement": "32nd-17th of 77",
             "dateSpan": "11/26/23 - 12/10/23",
-            "matches": [
-                {
+            "matches": [{
                     "id": 111470430,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 111542705,
                     "round": "Round of 32",
                     "opponent": "im actualy crying rn",
                     "myScore": 0,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 111667649,
                     "round": "Losers Round of 16",
                     "opponent": "ogayuuuu ;;;;—;;;;",
@@ -670,27 +563,22 @@
                     "oScore": 5
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 17,
             "team": "aizheimer's",
-            "players": [
-                {
+            "players": [{
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 13980
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 15388
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 21013
-                },
-                {
+                }, {
                     "name": "Akari-",
                     "id": 341591,
                     "rank": 16900
@@ -698,36 +586,31 @@
             ],
             "placement": "12th-16th out of 52",
             "dateSpan": "2/25/24 - 3/17/24",
-            "matches": [
-                {
+            "matches": [{
                     "id": 112830560,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 112927100,
                     "round": "Round of 32",
                     "opponent": "Life Is lego",
                     "myScore": 2,
                     "oScore": 5,
                     "notes": "I feel asleep before the match (oopsies)"
-                },
-                {
+                }, {
                     "id": 113021063,
                     "round": "Losers Round of 16",
                     "opponent": "gavno",
                     "myScore": 5,
                     "oScore": 3,
                     "notes": "bottom scored my locals on everything I was in for 🔥🔥"
-                },
-                {
+                }, {
                     "id": 113102682,
                     "round": "Losers Quarterfinals",
                     "opponent": "Big Plushy MIKU",
                     "myScore": 6,
                     "oScore": 4,
                     "notes": "my team put up some goated scores, nice win"
-                },
-                {
+                }, {
                     "id": 113120336,
                     "round": "Losers Quaterfinals",
                     "opponent": "Team (sus)umu Fish",
@@ -736,27 +619,22 @@
                     "notes": "No poiman sadly 😔 but I think we still lose. My scores this match were meh. I need to play more low ar hd because my aim is so inconsistent on it. I could've practice ez1 more and we might've won it."
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 19,
             "team": "carbon emissions are a",
-            "players": [
-                {
+            "players": [{
                     "name": "Chevy-",
                     "id": 17274293,
                     "rank": 19989
-                },
-                {
+                }, {
                     "name": "Sylliant",
                     "id": 18793670,
                     "rank": 28756
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 21473
-                },
-                {
+                }, {
                     "name": "Lenny-",
                     "id": 12538697,
                     "rank": 39640
@@ -764,16 +642,14 @@
             ],
             "placement": "16th - 12th out of 16",
             "dateSpan": "3/23/24 - 3/30/24",
-            "matches": [
-                {
+            "matches": [{
                     "id": 113187049,
                     "round": "Round of 16",
                     "opponent": "Team J",
                     "myScore": 1,
                     "oScore": 5,
                     "notes": "Chevy and Sylliant were tired and not playing well today... can't be helped. My scores were fine, except fm3, which I should've fcd. I literally fcd with hd right before going in. I could've also made the diff on nm3 if I didn't shitmiss. Our loss on dt3 by 4k points was also unfortunate since sylliant and chevy fcd."
-                },
-                {
+                }, {
                     "id": 113302865,
                     "round": "Losers Quarterfinals",
                     "opponent": "Read the team note",
@@ -782,42 +658,34 @@
                     "notes": "Had to 3v3 without our captain because of scheduling issues, which is quite unfortunate. I underperformed every map that I was meant to get a good score on, so that's disappointing :( I could've made the difference on a few maps if I was performing at par"
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 22,
             "team": "kentucky",
-            "players": [
-                {
+            "players": [{
                     "name": "Joyi",
                     "id": 12776754,
                     "rank": 989
-                },
-                {
+                }, {
                     "name": "Zeeno",
                     "id": 11273927,
                     "rank": 8872
-                },
-                {
+                }, {
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 14417
-                },
-                {
+                }, {
                     "name": "catgirl enjoyer",
                     "id": 18319269,
                     "rank": 46268
-                },
-                {
+                }, {
                     "name": "SirShyLordy",
                     "id": 9890753,
                     "rank": 12236
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 23015
-                },
-                {
+                }, {
                     "name": "MrSparklePants",
                     "id": 11182399,
                     "rank": 16974
@@ -825,43 +693,35 @@
             ],
             "placement": "DNQ 27th of 31",
             "dateSpan": "6/8/24",
-            "matches": [
-                {
+            "matches": [{
                     "id": 114211139,
                     "round": "Qualifiers"
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 23,
             "team": "Kentucky A",
-            "players": [
-                {
+            "players": [{
                     "name": "SirShyLordy",
                     "id": 9890753,
                     "rank": 12233
-                },
-                {
+                }, {
                     "name": "Aizuuya",
                     "id": 18683125,
                     "rank": 13217
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 16622
-                },
-                {
+                }, {
                     "name": "l scythe l",
                     "id": 16491333,
                     "rank": 12808
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 21842
-                },
-                {
+                }, {
                     "name": "catgirl enjoyer",
                     "id": 18319269,
                     "rank": 40929
@@ -869,28 +729,24 @@
             ],
             "placement": "24th - 16th of 35",
             "dateSpan": "6/16/24 - 7/7/24",
-            "matches": [
-                {
+            "matches": [{
                     "id": 114324080,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 114412694,
                     "round": "Round of 32",
                     "opponent": "Florida A",
                     "myScore": 4,
                     "oScore": 6,
                     "notes": "So close to coming back from 0-4, but sadly not. Probably the most fun match I've ever played and also sirshy ez fc on fm1 was fucking crazy."
-                },
-                {
+                }, {
                     "id": 114503469,
                     "round": "Losers Round of 16",
                     "opponent": "Pennsylvania A",
                     "myScore": 6,
                     "oScore": 0,
                     "notes": "I played decently, easy dub even with missing sparkle"
-                },
-                {
+                }, {
                     "id": 114589262,
                     "round": "Losers Quarterfinals",
                     "opponent": "Oklahoma A",
@@ -900,32 +756,26 @@
                 }
             ],
             "notes": "was fun, but wish we weren't so unlucky, cuz we otherwise could've made it a bit farther"
-        },
-        {
+        }, {
             "tournamentId": 24,
             "team": "80% Kentucky 20% Not Kentucky",
-            "players": [
-                {
+            "players": [{
                     "name": "catgirl enjoyer",
                     "id": 18319269,
                     "rank": 38259
-                },
-                {
+                }, {
                     "name": "SirShyLordy",
                     "id": 9890753,
                     "rank": 12036
-                },
-                {
+                }, {
                     "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 15903
-                },
-                {
+                }, {
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 22126
-                },
-                {
+                }, {
                     "name": "IWBTG",
                     "id": 12820940,
                     "rank": 67018
@@ -933,19 +783,16 @@
             ],
             "placement": "32nd-17th of 43",
             "dateSpan": "8/4/24 - 8/18/24",
-            "matches": [
-                {
+            "matches": [{
                     "id": 114946786,
                     "round": "Qualifiers"
-                },
-                {
+                }, {
                     "id": 115025631,
                     "round": "Round of 32",
                     "opponent": "Fuwari",
                     "myScore": 2,
                     "oScore": 5
-                },
-                {
+                }, {
                     "id": 115133299,
                     "round": "Round of 16",
                     "opponent": "The world is changing and I miss you",
@@ -953,12 +800,10 @@
                     "oScore": 5
                 }
             ]
-        },
-        {
+        }, {
             "tournamentId": 26,
             "team": "Sheppsu",
-            "players": [
-                {
+            "players": [{
                     "name": "Sheppsu",
                     "id": 14895608,
                     "rank": 22447
@@ -966,18 +811,22 @@
             ],
             "placement": "N/A",
             "dateSpan": "8/29/24 - present",
-            "matches": [
-                {
+            "matches": [{
                     "id": 115291449,
                     "round": "Qualifiers",
                     "notes": "no good scores :("
-                },
-                {
+                }, {
                     "id": 115423720,
                     "round": "Quarterfinals",
                     "myScore": 3,
                     "oScore": 6,
                     "notes": "Somewhat close match :D could've been closer if I didn't troll nm1 or hd1. Scores overall were okay"
+                }, {
+                    "id": 115498961,
+                    "round": "Semifinals",
+                    "myScore": 6,
+                    "oScore": 4,
+                    "notes": "good match, basically trading blows to eachothers' weakpoints lol"
                 }
             ]
         }
