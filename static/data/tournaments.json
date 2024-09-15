@@ -824,11 +824,18 @@
                     "notes": "Somewhat close match :D could've been closer if I didn't troll nm1 or hd1. Scores overall were okay"
                 }, {
                     "id": 115498961,
-                    "round": "Semifinals",
+                    "round": "Losers Semifinals",
                     "opponent": "Kneshio",
                     "myScore": 6,
                     "oScore": 4,
                     "notes": "good match, basically trading blows to eachothers' weakpoints lol"
+                }, {
+                    "id": 115512648,
+                    "round": "Losers Semifinals",
+                    "opponent": "GuardianGuy",
+                    "myScore": 3,
+                    "oScore": 6,
+                    "notes": "underperforming :( (GuardianGuy has a 7.38x multiplier)"
                 }
             ]
         }
