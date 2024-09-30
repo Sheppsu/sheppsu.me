@@ -155,6 +155,12 @@
             "name": "Purdue Solo Cup",
             "link": "https://docs.google.com/spreadsheets/d/1vvA_GoR5jF0oaGjYRNyHyIAfqhERm4YnjrDr9uxWGN4/edit?gid=1923100594#gid=1923100594",
             "description": "purdue osu club 1v1 tournament"
+        }, {
+            "id": 27,
+            "acronym": "!roll3",
+            "name": "!roll 3",
+            "link": "https://osu.ppy.sh/community/forums/topics/1960794?n=1",
+            "description": "TS4 2v2 open rank tournament where each slot has 3 possible maps decided by a !roll"
         }
     ],
     "played": [{
@@ -842,7 +848,7 @@
     ],
     "hosted": [4, 10, 14, 18, 21],
     "admin": [25],
-    "reffed": [1, 5, 8, 10, 14, 15, 18, 20],
-    "streamed": [2, 3, 7, 4, 9, 10, 14, 18],
+    "reffed": [1, 5, 8, 10, 14, 15, 18, 20, 25, 27],
+    "streamed": [2, 3, 7, 4, 9, 10, 14, 18, 25, 27],
     "mappooled": [4, 10, 14, 15, 18]
 }
