@@ -160,7 +160,13 @@
             "acronym": "!roll3",
             "name": "!roll 3",
             "link": "https://osu.ppy.sh/community/forums/topics/1960794?n=1",
-            "description": "TS4 2v2 open rank tournament where each slot has 3 possible maps decided by a !roll"
+            "description": "TS4 2v2 open rank tournament where each slot has 3 possible maps decided by a !roll 3"
+        }, {
+            "id": 28,
+            "acronym": "o!CL",
+            "name": "osu!Collegiate League Fall 2024",
+            "link": "https://osu.ppy.sh/community/forums/topics/1974503?n=1",
+            "description": "2v2 TS4 tournament where each team is made up of players from the same school"
         }
     ],
     "played": [{
@@ -842,6 +848,35 @@
                     "myScore": 3,
                     "oScore": 6,
                     "notes": "underperforming :( (GuardianGuy has a 7.38x multiplier)"
+                }
+            ]
+        }, {
+            "tournamentId": 28,
+            "team": "Purdue University",
+            "players": [{
+                    "name": "BweedonMei",
+                    "id": 13411698,
+                    "rank": 3119
+                }, {
+                    "name": "hiavl",
+                    "id": 18127943,
+                    "rank": 3275
+                }, {
+                    "name": "jihoonn",
+                    "id": 10590812,
+                    "rank": 5679
+                }, {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 22297
+                }
+            ],
+            "placement": "N/A",
+            "dateSpan": "10/6/24 - present",
+            "matches": [{
+                    "id": 115768321,
+                    "round": "Qualifiers",
+                    "notes": "all bottom scores for me except nm4 D: some good team scores though"
                 }
             ]
         }
