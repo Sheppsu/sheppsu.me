@@ -167,6 +167,12 @@
             "name": "osu!Collegiate League Fall 2024",
             "link": "https://osu.ppy.sh/community/forums/topics/1974503?n=1",
             "description": "2v2 TS4 tournament where each team is made up of players from the same school"
+        }, {
+            "id": 29,
+            "acronym": "CTA",
+            "name": "Capture The Achievement",
+            "link": "https://cta.sheppsu.me/",
+            "description": "CTA is a 9-day event that combines medal hunting and competition into a fun team-based format (inspired in part by osu!CTF). It does not involve osu!'s official medals, and instead has unique \"achievements\" with criteria ranging from high-level scores to secret requirements (like hush-hush medals)."
         }
     ],
     "played": [{
@@ -881,7 +887,7 @@
             ]
         }
     ],
-    "hosted": [4, 10, 14, 18, 21],
+    "hosted": [4, 10, 14, 18, 21, 29],
     "admin": [25],
     "reffed": [1, 5, 8, 10, 14, 15, 18, 20, 25, 27],
     "streamed": [2, 3, 7, 4, 9, 10, 14, 18, 25, 27],
