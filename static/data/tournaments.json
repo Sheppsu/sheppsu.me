@@ -173,6 +173,12 @@
             "name": "Capture The Achievement",
             "link": "https://cta.sheppsu.me/",
             "description": "CTA is a 9-day event that combines medal hunting and competition into a fun team-based format (inspired in part by osu!CTF). It does not involve osu!'s official medals, and instead has unique \"achievements\" with criteria ranging from high-level scores to secret requirements (like hush-hush medals)."
+        }, {
+            "id": 30,
+            "acronym": "SSET2",
+            "name": "Sheppsu's Super EZ Tournament 2",
+            "link": "https://osu.ppy.sh/community/forums/topics/2021102?n=1",
+            "description": "A 1v1 open-rank tournament with a mappool composed entirely of Easy mod."
         }
     ],
     "played": [{
@@ -887,9 +893,9 @@
             ]
         }
     ],
-    "hosted": [4, 10, 14, 18, 21, 29],
+    "hosted": [4, 10, 14, 18, 21, 29, 30],
     "admin": [25],
-    "reffed": [1, 5, 8, 10, 14, 15, 18, 20, 25, 27],
-    "streamed": [2, 3, 7, 4, 9, 10, 14, 18, 25, 27],
-    "mappooled": [4, 10, 14, 15, 18]
+    "reffed": [1, 5, 8, 10, 14, 15, 18, 20, 25, 27, 30],
+    "streamed": [2, 3, 7, 4, 9, 10, 14, 18, 25, 27, 30],
+    "mappooled": [4, 10, 14, 15, 18, 30]
 }
