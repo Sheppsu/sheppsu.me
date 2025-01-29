@@ -209,6 +209,13 @@
             "name": "Sheppsu's Super EZ Tournament 2",
             "link": "https://osu.ppy.sh/community/forums/topics/2021102?n=1",
             "description": "A 1v1 open-rank tournament with a mappool composed entirely of Easy mod."
+        },
+        {
+            "id": 31,
+            "acronym": "KYT",
+            "name": "Kentucky Tournament",
+            "link": "https://docs.google.com/spreadsheets/d/1VTcXFaJRbZOvj31fJs63huqhBOxtNuz5A7anrgCDzN0/edit?gid=0#gid=0",
+            "description": "A in-house tournament for Kentucky players"
         }
     ],
     "played": [
@@ -1052,13 +1059,33 @@
                     "rank": 22297
                 }
             ],
-            "placement": "N/A",
-            "dateSpan": "10/6/24 - present",
+            "placement": "DNQ 33rd of 56",
+            "dateSpan": "10/6/24",
             "matches": [
                 {
                     "id": 115768321,
                     "round": "Qualifiers",
                     "notes": "all bottom scores for me except nm4 D: some good team scores though"
+                }
+            ]
+        },
+        {
+            "tournamentId": 31,
+            "team": "Sheppsu",
+            "players": [
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 22113
+                }
+            ],
+            "placement": "N/A",
+            "dateSpan": "1/26/25 - present",
+            "matches": [
+                {
+                    "id": 116961343,
+                    "round": "Round of 16",
+                    "notes": "close match, wish I picked hd1 over nm1, but performance was fine"
                 }
             ]
         }
