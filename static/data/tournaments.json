@@ -216,6 +216,13 @@
             "name": "Kentucky Tournament",
             "link": "https://docs.google.com/spreadsheets/d/1VTcXFaJRbZOvj31fJs63huqhBOxtNuz5A7anrgCDzN0/edit?gid=0#gid=0",
             "description": "A in-house tournament for Kentucky players"
+        },
+        {
+            "id": 32,
+            "acronym": "CCTV2",
+            "name": "Cat’fe Clash Tournament",
+            "link": "https://osu.ppy.sh/community/forums/topics/2032986?n=1",
+            "description": "3v3 TS5 international tiered team tourney"
         }
     ],
     "played": [
@@ -802,7 +809,7 @@
             "dateSpan": "3/23/24 - 3/30/24",
             "matches": [
                 {
-                    "id": 113187049,
+                    "id": 113200412,
                     "round": "Round of 16",
                     "opponent": "Team J",
                     "myScore": 1,
@@ -1085,7 +1092,84 @@
                 {
                     "id": 116961343,
                     "round": "Round of 16",
+                    "opponent": "SirShyLordy",
+                    "myScore": 4,
+                    "oScore": 5,
                     "notes": "close match, wish I picked hd1 over nm1, but performance was fine"
+                },
+                {
+                    "id": 117018997,
+                    "round": "Quarterfinals",
+                    "opponent": "Vadeblade",
+                    "myScore": 4,
+                    "oScore": -1
+                },
+                {
+                    "id": null,
+                    "round": "Semifinals",
+                    "opponent": "Aizuuya",
+                    "myScore": 0,
+                    "oScore": -1
+                },
+                {
+                    "id": 117155818,
+                    "round": "Semifinals",
+                    "opponent": "Zeeno",
+                    "myScore": 6,
+                    "oScore": 4
+                },
+                {
+                    "id": null,
+                    "round": "Finals",
+                    "opponent": "Guhh",
+                    "myScore": 0,
+                    "oScore": -1
+                },
+                {
+                    "id": 117217284,
+                    "round": "Finals",
+                    "opponent": "KingArt",
+                    "myScore": 1,
+                    "oScore": 7
+                }
+            ]
+        },
+        {
+            "tournamentId": 32,
+            "team": "corn on the cob cats",
+            "players": [
+                {
+                    "name": "Aizuuya",
+                    "id": 18683125,
+                    "rank": 11305
+                },
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 20833
+                },
+                {
+                    "name": "catgirl enjoyer",
+                    "id": 18319269,
+                    "rank": 20817
+                },
+                {
+                    "name": "tapLing",
+                    "id": 16065677,
+                    "rank": 57039
+                },
+                {
+                    "name": "JeloGelo",
+                    "id": 21129531,
+                    "rank": 80066
+                }
+            ],
+            "placement": "DNQ 47th of 74",
+            "dateSpan": "3/1/25",
+            "matches": [
+                {
+                    "id": 117344743,
+                    "round": "Qualifiers"
                 }
             ]
         }
