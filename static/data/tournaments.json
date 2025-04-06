@@ -223,6 +223,20 @@
             "name": "Cat’fe Clash Tournament",
             "link": "https://osu.ppy.sh/community/forums/topics/2032986?n=1",
             "description": "3v3 TS5 international tiered team tourney"
+        },
+        {
+            "id": 33,
+            "acronym": "USARTT6",
+            "name": "USA Random Team Tournament 6",
+            "link": "https://docs.google.com/spreadsheets/d/1NA6RUHLdFfN7Dmx-quM48L7YsnGvAdtfZWuRJEkBvC4/edit?gid=1537818727#gid=1537818727",
+            "description": "Random team tournament for those that did not get selected to a 5WC team"
+        },
+        {
+            "id": 34,
+            "acronym": "PDC",
+            "name": "Purdue Duo Cup",
+            "link": "https://docs.google.com/spreadsheets/d/1-S2oe-MaBpaK5BnmknuLeBMuD1TI9PoV_ArCoYuZS1M/edit?gid=1728450050#gid=1728450050",
+            "description": "TS2 2v2 tournament, one player is Purdue student/alumni and other doesn't have to be"
         }
     ],
     "played": [
@@ -1086,8 +1100,8 @@
                     "rank": 22113
                 }
             ],
-            "placement": "N/A",
-            "dateSpan": "1/26/25 - present",
+            "placement": "4th",
+            "dateSpan": "1/26/25 - 2/17/25",
             "matches": [
                 {
                     "id": 116961343,
@@ -1170,6 +1184,102 @@
                 {
                     "id": 117344743,
                     "round": "Qualifiers"
+                }
+            ]
+        },
+        {
+            "tournamentId": 33,
+            "team": "Team 7",
+            "players": [
+                {
+                    "name": "greeny111",
+                    "id": 16202447,
+                    "rank": 12749
+                },
+                {
+                    "name": "MARVINFRAGZ77",
+                    "id": 15204377,
+                    "rank": 17686
+                },
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 20530
+                },
+                {
+                    "name": "Fortasse",
+                    "id": 10051043,
+                    "rank": 33595
+                },
+                {
+                    "name": "Brokezy",
+                    "id": 22994487,
+                    "rank": 18189
+                }
+            ],
+            "placement": "16th-13th",
+            "dateSpan": "3/10/25 - 3/17/25",
+            "matches": [
+                {
+                    "id": 117434271,
+                    "round": "Round of 16",
+                    "opponent": "Ford Truck Month",
+                    "myScore": 1,
+                    "oScore": 6,
+                    "notes": "I did pretty well this match, but the oppoonent team is actually just a crazy team comp"
+                },
+                {
+                    "id": 117505453,
+                    "round": "Losers Quarterfinals",
+                    "opponent": "DEATHBLENDER5K",
+                    "myScore": 1,
+                    "oScore": 6,
+                    "notes": "scheduling issues so captain greeny wasn't here D:"
+                }
+            ]
+        },
+        {
+            "tournamentId": 34,
+            "team": "Kentucky Devils",
+            "players": [
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 19274
+                },
+                {
+                    "name": "SirShyLordy",
+                    "id": 9890753,
+                    "rank": 10618
+                },
+                {
+                    "name": "Aizuuya",
+                    "id": 18683125,
+                    "rank": 11002,
+                    "notes": "was originally my teammate, but had to switch places with sirshy after qualifiers because he got tendonitis 😔"
+                }
+            ],
+            "placement": "N/A",
+            "dateSpan": "3/6/25 - present",
+            "matches": [
+                {
+                    "id": 117399957,
+                    "round": "Qualifiers"
+                },
+                {
+                    "id": null,
+                    "round": "Quarterfinals",
+                    "opponent": "key",
+                    "myScore": 0,
+                    "oScore": -1
+                },
+                {
+                    "id": 117648497,
+                    "round": "Semifinals",
+                    "opponent": "toyota supra 2015",
+                    "myScore": 6,
+                    "oScore": 5,
+                    "notes": "wow what a close match it was, very fun. me and sirshy both performed well"
                 }
             ]
         }
