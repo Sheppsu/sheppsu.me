@@ -1259,8 +1259,8 @@
                     "notes": "was originally my teammate, but had to switch places with sirshy after qualifiers because he got tendonitis 😔"
                 }
             ],
-            "placement": "N/A",
-            "dateSpan": "3/6/25 - present",
+            "placement": "3rd",
+            "dateSpan": "3/6/25 - 4/12/25",
             "matches": [
                 {
                     "id": 117399957,
@@ -1280,6 +1280,22 @@
                     "myScore": 6,
                     "oScore": 5,
                     "notes": "wow what a close match it was, very fun. me and sirshy both performed well"
+                },
+                {
+                    "id": 117719223,
+                    "round": "Finals",
+                    "opponent": "\"can i get aj's\" - twisty",
+                    "myScore": 1,
+                    "oScore": 6,
+                    "notes": "tapping pool"
+                },
+                {
+                    "id": 117778120,
+                    "round": "Losers Grand Finals",
+                    "opponent": "toyota supra 2015",
+                    "myScore": 3,
+                    "oScore": 7,
+                    "notes": "tapping pool"
                 }
             ]
         }
