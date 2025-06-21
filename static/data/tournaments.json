@@ -237,6 +237,34 @@
             "name": "Purdue Duo Cup",
             "link": "https://docs.google.com/spreadsheets/d/1-S2oe-MaBpaK5BnmknuLeBMuD1TI9PoV_ArCoYuZS1M/edit?gid=1728450050#gid=1728450050",
             "description": "TS2 2v2 tournament, one player is Purdue student/alumni and other doesn't have to be"
+        },
+        {
+            "id": 35,
+            "acronym": "SLT",
+            "name": "Spring Love Tournament",
+            "link": "https://osu.ppy.sh/community/forums/topics/2055932?n=1",
+            "description": "International 2v2 TS3, double elimination, #200 - #25,000 (no BWS)"
+        },
+        {
+            "id": 36,
+            "acronym": "JJ2",
+            "name": "June Journament 2",
+            "link": "https://osu.ppy.sh/community/forums/topics/2070516?n=1",
+            "description": "International 3v3 TS6, #5k - #99,999 (BWS), double elimination"
+        },
+        {
+            "id": 37,
+            "acronym": "GT",
+            "name": "Guh's Tournament",
+            "link": "https://osu.ppy.sh/community/forums/topics/2068403?n=1",
+            "description": "This is a North and South American 3v3 double-elimination osu!standard tournament for players ranked between 100 and 99,999."
+        },
+        {
+            "id": 38,
+            "acronym": "5USC25",
+            "name": "5USC (2025)",
+            "link": "https://osu.ppy.sh/community/forums/topics/2080039?n=1",
+            "description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
         }
     ],
     "played": [
@@ -494,7 +522,7 @@
                     "rank": 15143
                 },
                 {
-                    "name": "MrSparklePants",
+                    "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 15643
                 },
@@ -875,7 +903,7 @@
                     "rank": 23015
                 },
                 {
-                    "name": "MrSparklePants",
+                    "name": "MrSparklepants",
                     "id": 11182399,
                     "rank": 16974
                 }
@@ -1298,6 +1326,117 @@
                     "notes": "tapping pool"
                 }
             ]
+        },
+        {
+            "tournamentId": 35,
+            "team": "MrPizzaFries",
+            "players": [
+                {
+                    "name": "xek",
+                    "id": 18628006,
+                    "rank": 9227
+                },
+                {
+                    "name": "Sheppsu",
+                    "id": 14895608,
+                    "rank": 19511
+                },
+                {
+                    "name": "MrSparklepants",
+                    "id": 11182399,
+                    "rank": 13920
+                }
+            ],
+            "placement": "DNQ 67th of 70",
+            "dateSpan": "4/27/25",
+            "matches": [
+                {
+                    "id": 117927907,
+                    "round": "Qualifiers"
+                }
+            ]
+        },
+        {
+            "tournamentId": 36,
+            "team": "children in a hot car",
+            "players": [
+                {
+                    "id": 13671801,
+                    "name": "TheOtherBubble",
+                    "rank": 14720
+                },
+                {
+                    "id": 18777486,
+                    "name": "A1ua",
+                    "rank": 16201
+                },
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 19508
+                },
+                {
+                    "id": 18628006,
+                    "name": "xek",
+                    "rank": 8632
+                },
+                {
+                    "id": 8529597,
+                    "name": "The Hoamie",
+                    "rank": 10181
+                },
+                {
+                    "id": 5776339,
+                    "name": "STH531",
+                    "rank": 11592
+                }
+            ],
+            "placement": "DNQ 53rd of 79",
+            "dateSpan": "5/31/25",
+            "matches": [
+                {
+                    "id": 118260227,
+                    "round": "Qualifiers"
+                }
+            ]
+        },
+        {
+            "tournamentId": 38,
+            "team": "Kentucky A",
+            "players": [
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 20114
+                },
+                {
+                    "id": 11273927,
+                    "name": "Zeeno",
+                    "rank": 12250
+                },
+                {
+                    "id": 11182399,
+                    "name": "MrSparklepants",
+                    "rank": 11329
+                },
+                {
+                    "id": 341591,
+                    "name": "Syaro",
+                    "rank": 16327
+                },
+                {
+                    "id": 16709379,
+                    "name": "yuutsu",
+                    "rank": 18589
+                },
+                {
+                    "id": 18319269,
+                    "name": "catgirl enjoyer",
+                    "rank": 20148
+                }
+            ],
+            "placement": "TBD",
+            "dateSpan": "6/28/25 - Present"
         }
     ],
     "hosted": [
@@ -1345,5 +1484,8 @@
         15,
         18,
         30
+    ],
+    "sheeted": [
+        37
     ]
 }
