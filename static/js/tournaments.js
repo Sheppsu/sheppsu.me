@@ -218,7 +218,7 @@ function createTournamentElements(data) {
         }
     }
 
-    for (const item of[["Host", data.hosted], ["Admin", data.admin], ["Sheeter", data.sheeted], ["Mappooler", data.mappooled], ["Streamer", data.streamed], ["Referee", data.reffed]]) {
+    for (const item of[["Host", data.hosted], ["Admin", data.admin], ["Sheeter", data.sheeted], ["Streamer", data.streamed], ["Mappooler", data.mappooled], ["Playtester", data.playtested], ["Referee", data.reffed]]) {
         mainContainer.appendChild(createDivider(item[0] + ` (${item[1].length})`));
         for (const id of item[1]) {
             const tournament = getTournament(id);

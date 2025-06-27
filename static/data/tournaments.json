@@ -200,7 +200,7 @@
             "id": 29,
             "acronym": "CTA",
             "name": "Capture The Achievement",
-            "link": "https://cta.sheppsu.me/",
+            "link": "https://cta.sheppsu.me/iterations/1/",
             "description": "CTA is a 9-day event that combines medal hunting and competition into a fun team-based format (inspired in part by osu!CTF). It does not involve osu!'s official medals, and instead has unique \"achievements\" with criteria ranging from high-level scores to secret requirements (like hush-hush medals)."
         },
         {
@@ -262,9 +262,16 @@
         {
             "id": 38,
             "acronym": "5USC25",
-            "name": "5USC (2025)",
+            "name": "5 Digit United States Cup 2025",
             "link": "https://osu.ppy.sh/community/forums/topics/2080039?n=1",
             "description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
+        },
+        {
+            "id": 39,
+            "acronym": "CTA2",
+            "name": "Capture The Achievement 2",
+            "link": "https://cta.sheppsu.me/",
+            "description": "Capture The Achievement (CTA) is a badged (pending) osu! event that combines scavenger hunting with team competition."
         }
     ],
     "played": [
@@ -1446,10 +1453,20 @@
         18,
         21,
         29,
-        30
+        30,
+        39
     ],
     "admin": [
         25
+    ],
+    "sheeted": [
+        4,
+        10,
+        14,
+        18,
+        30,
+        37,
+        39
     ],
     "reffed": [
         1,
@@ -1485,7 +1502,7 @@
         18,
         30
     ],
-    "sheeted": [
+    "playtested": [
         37
     ]
 }
