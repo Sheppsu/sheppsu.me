@@ -243,7 +243,7 @@ function createTournamentElements(data) {
     const totalQualify = totalQualifiers - totalDNQ;
     addStat(`Qualify rate: ${totalQualify}/${totalQualifiers} (${(totalQualify / totalQualifiers * 100).toPrecision(4)}%)`);
     addStat(`FF win-loss count: ${ffWinCount}-${ffLossCount}`);
-    addStat(`Points won-lost: ${pointsWon}-${pointsLost} (${((pointsWon + pointsLost) / pointsWon).toPrecision(4)}% wr)`);
+    addStat(`Points won-lost: ${pointsWon}-${pointsLost} (${(pointsWon / (pointsWon + pointsLost) * 100).toPrecision(4)}% wr)`);
     addStat(`#1 placements: ${firstPlaces}`);
     addStat(`#2 placements: ${secondPlaces}`);
     addStat(`#3 placements: ${thirdPlaces}`);
