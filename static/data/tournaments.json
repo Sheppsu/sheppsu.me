@@ -272,6 +272,13 @@
             "name": "Capture The Achievement 2",
             "link": "https://cta.sheppsu.me/",
             "description": "Capture The Achievement (CTA) is a badged (pending) osu! event that combines scavenger hunting with team competition."
+        },
+        {
+            "id": 40,
+            "acronym": "EZWC25",
+            "name": "EZ World Cup 2025",
+            "link": "https://osu.ppy.sh/community/forums/topics/2106363?n=1",
+            "description": "3v3 TS6 country-based tournament where all maps are played with EZ mod (slight exceptions)"
         }
     ],
     "played": [
@@ -1469,7 +1476,8 @@
         21,
         29,
         30,
-        39
+        39,
+        40
     ],
     "admin": [
         25
