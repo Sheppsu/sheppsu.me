@@ -279,6 +279,13 @@
             "name": "EZ World Cup 2025",
             "link": "https://osu.ppy.sh/community/forums/topics/2106363?n=1",
             "description": "3v3 TS6 country-based tournament where all maps are played with EZ mod (slight exceptions)"
+        },
+        {
+            "id": 41,
+            "acronym": "o!CL F25",
+            "name": "osu!Collegiate League Fall 2025",
+            "link": "https://osu.ppy.sh/community/matches/119603934",
+            "description": "2v2 tournament between universities"
         }
     ],
     "played": [
@@ -1449,8 +1456,8 @@
                     "rank": 20148
                 }
             ],
-            "placement": "TBD",
-            "dateSpan": "6/28/25 - Present",
+            "placement": "32nd - 25th",
+            "dateSpan": "6/28/25 - 7/19/25",
             "matches": [
                 {
                     "id": 118532824,
@@ -1464,6 +1471,58 @@
                     "myScore": 0,
                     "oScore": 5,
                     "notes": "another week of underperforming, quite frustrating :(("
+                },
+                {
+                    "id": 118726331,
+                    "round": "Losers Round of 16",
+                    "opponent": "Arizona A",
+                    "myScore": 0,
+                    "oScore": 6,
+                    "notes": "I'm inputting this months afterwards so idr but I probably underperformed like usual"
+                }
+            ]
+        },
+        {
+            "tournamentId": 41,
+            "team": "Purdue University B",
+            "players": [
+                {
+                    "id": 13671801,
+                    "name": "TheOtherBubble",
+                    "rank": 15474
+                },
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 20993
+                },
+                {
+                    "id": 22010758,
+                    "name": "456456456456ED",
+                    "rank": 10325
+                },
+                {
+                    "id": 10590812,
+                    "name": "jihoonn",
+                    "rank": 6953
+                }
+            ],
+            "placement": "TBD",
+            "dateSpan": "10/11/25 - Present",
+            "matches": [
+                {
+                    "round": "Swiss Round 1",
+                    "opponent": "University of California, Riverside B",
+                    "myScore": 0,
+                    "oScore": -1
+                },
+                {
+                    "id": 119603934,
+                    "round": "Swiss Round 2",
+                    "opponent": "University of California, Santa Cruz B",
+                    "myScore": 1,
+                    "oScore": 5,
+                    "notes": "we already knew it was a tough matchup, but I still hate myself for bottoming my locals on all 3 maps I played. going from near fc on nm3 to 390k. going from 600k on hd1 right before it's picked to 450k. no fun :("
                 }
             ]
         }
