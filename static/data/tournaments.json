@@ -1476,7 +1476,7 @@
                     "id": 118726331,
                     "round": "Losers Round of 16",
                     "opponent": "Arizona A",
-                    "myScore": 0,
+                    "myScore": 3,
                     "oScore": 6,
                     "notes": "I'm inputting this months afterwards so idr but I probably underperformed like usual"
                 }
@@ -1507,8 +1507,8 @@
                     "rank": 6953
                 }
             ],
-            "placement": "TBD",
-            "dateSpan": "10/11/25 - Present",
+            "placement": "18th - 10th",
+            "dateSpan": "10/11/25 - 11/9/25",
             "matches": [
                 {
                     "round": "Swiss Round 1",
@@ -1523,6 +1523,28 @@
                     "myScore": 1,
                     "oScore": 5,
                     "notes": "we already knew it was a tough matchup, but I still hate myself for bottoming my locals on all 3 maps I played. going from near fc on nm3 to 390k. going from 600k on hd1 right before it's picked to 450k. no fun :("
+                },
+                {
+                    "id": null,
+                    "round": "Swiss Round 3",
+                    "opponent": "Simon Fraser University B",
+                    "myScore": 0,
+                    "oScore": -1
+                },
+                {
+                    "id": 119726804,
+                    "round": "Swiss Round 4",
+                    "opponent": "University of Maryland, College Park A",
+                    "myScore": 5,
+                    "oScore": 2
+                },
+                {
+                    "id": 119787292,
+                    "round": "PreSemis",
+                    "opponent": "University of British Columbia B",
+                    "myScore": 5,
+                    "oScore": 7,
+                    "notes": "I'm inputting this months after so idr much, but the matchcosts are funny"
                 }
             ]
         }
