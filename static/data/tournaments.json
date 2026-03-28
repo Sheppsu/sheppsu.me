@@ -286,6 +286,13 @@
             "name": "osu!Collegiate League Fall 2025",
             "link": "https://osu.ppy.sh/community/matches/119603934",
             "description": "2v2 tournament between universities"
+        },
+        {
+            "id": 42,
+            "acronym": "USARTT7",
+            "name": "USA Random Team Tournament 7",
+            "link": "https://docs.google.com/spreadsheets/d/1LjcfLqoMa9nkG5l5JH7rUholvTf51AXtA-i8UifDj-s/edit?gid=406011500#gid=406011500",
+            "description": "Random team tournament for those that did not get selected to a 5WC team"
         }
     ],
     "played": [
@@ -1545,6 +1552,68 @@
                     "myScore": 5,
                     "oScore": 7,
                     "notes": "I'm inputting this months after so idr much, but the matchcosts are funny"
+                }
+            ]
+        },
+        {
+            "tournamentId": 42,
+            "team": "Uncle Burger Fan Club",
+            "players": [
+                {
+                    "id": 9853411,
+                    "name": "Sorenthy",
+                    "rank": 13047
+                },
+                {
+                    "id": 16601838,
+                    "name": "Grayy-",
+                    "rank": 12459
+                },
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 22802
+                },
+                {
+                    "id": 14091773,
+                    "name": "unclenumbers",
+                    "rank": 26755
+                },
+                {
+                    "id": 13145504,
+                    "name": "Gesu",
+                    "rank": 30791
+                },
+                {
+                    "id": 9586074,
+                    "name": "Elchman",
+                    "rank": 83834
+                }
+            ],
+            "placement": "12th - 9th",
+            "dateSpan": "3/14/25 - 3/28/25",
+            "matches": [
+                {
+                    "id": 120733260,
+                    "round": "Round of 16",
+                    "opponent": "FA Team 1",
+                    "myScore": 4,
+                    "oScore": 5
+                },
+                {
+                    "id": 120780661,
+                    "round": "Losers Quarterfinals",
+                    "opponent": "chudholics chunonymous",
+                    "myScore": 6,
+                    "oScore": 2
+                },
+                {
+                    "id": 120819281,
+                    "round": "Losers Semifinals",
+                    "opponent": "mutha flockas",
+                    "myScore": 3,
+                    "oScore": 6,
+                    "notes": "bancho trolled us on the dt2 cuz gray got 900k but froze on stream and replay didn't save 😭 I played almost decent, but for some reason I repeatedly got random misses on nothing and just fc'd everything else. if not for that we could've won nm3 and nm4 (also almost fcd hd1). maybe just nerves but it's a bit frustrating"
                 }
             ]
         }
