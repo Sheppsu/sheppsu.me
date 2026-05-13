@@ -293,6 +293,20 @@
             "name": "USA Random Team Tournament 7",
             "link": "https://docs.google.com/spreadsheets/d/1LjcfLqoMa9nkG5l5JH7rUholvTf51AXtA-i8UifDj-s/edit?gid=406011500#gid=406011500",
             "description": "Random team tournament for those that did not get selected to a 5WC team"
+        },
+        {
+            "id": 43,
+            "acronym": "KYT2",
+            "name": "Kentucky Tournament 2",
+            "link": "https://docs.google.com/spreadsheets/d/14yWDVgXanMZ2kJLgJdVopfHWFXqvjYF52JaKn4wWdAs/edit?gid=1578767690#gid=1578767690",
+            "description": "in-house 1v1 tournament between Kentucky players"
+        },
+        {
+            "id": 44,
+            "acronym": "UIUCLAN",
+            "name": "University of Illinois Urbana-Champaign Lan Tournament",
+            "link": "https://docs.google.com/spreadsheets/d/1WfYjpbki3WKrYytg82ru4QMeF5WKVRMPzHbvHvhit0I/edit?gid=1310366069#gid=1310366069",
+            "description": "A 4v4 TS5 LAN tournament at UIUC. Also had tandem picks in the pool (TD)."
         }
     ],
     "played": [
@@ -1616,6 +1630,110 @@
                     "notes": "bancho trolled us on the dt2 cuz gray got 900k but froze on stream and replay didn't save 😭 I played almost decent, but for some reason I repeatedly got random misses on nothing and just fc'd everything else. if not for that we could've won nm3 and nm4 (also almost fcd hd1). maybe just nerves but it's a bit frustrating"
                 }
             ]
+        },
+        {
+            "tournamentId": 43,
+            "team": "Sheppsu",
+            "players": [
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 22507
+                }
+            ],
+            "placement": "8th - 7th",
+            "dateSpan": "3/27/25 - 4/26/25",
+            "matches": [
+                {
+                    "id": 120828566,
+                    "round": "Qualifiers",
+                    "notes": "kinda deseeded myself by accident lol"
+                },
+                {
+                    "id": 120879687,
+                    "round": "Round of 16",
+                    "opponent": "Abrown516",
+                    "myScore": 5,
+                    "oScore": 3
+                },
+                {
+                    "id": 120969730,
+                    "round": "Quarterfinals",
+                    "opponent": "KingArt",
+                    "myScore": 2,
+                    "oScore": 6
+                },
+                {
+                    "id": 121016233,
+                    "round": "Losers Semifinals",
+                    "opponent": "fuy",
+                    "myScore": 6,
+                    "oScore": 1
+                },
+                {
+                    "id": 121022786,
+                    "round": "Losers Semifinals",
+                    "opponent": "yuutsu",
+                    "myScore": 6,
+                    "oScore": 5
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "team": "hachimi",
+            "players": [
+                {
+                    "id": 11980735,
+                    "name": "superalv123",
+                    "rank": 14465
+                },
+                {
+                    "id": 15641344,
+                    "name": "-Aiba-",
+                    "rank": 13099
+                },
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 22867
+                },
+                {
+                    "id": 11434785,
+                    "name": "ryh",
+                    "rank": 48234
+                },
+                {
+                    "id": 17496757,
+                    "name": "SupremeDonut",
+                    "rank": 79451
+                }
+            ],
+            "dateSpan": "4/25/26",
+            "matches": [
+                {
+                    "id": 121012989,
+                    "round": "Swiss Round 1",
+                    "opponent": "Foreground Eclipse",
+                    "myScore": 5,
+                    "oScore": 2
+                },
+                {
+                    "id": 121013685,
+                    "round": "Swiss Round 2",
+                    "opponent": "eric",
+                    "myScore": 5,
+                    "oScore": 2
+                },
+                {
+                    "id": 121014531,
+                    "round": "Finals",
+                    "opponent": "Taco Bell",
+                    "myScore": 4,
+                    "oScore": 6
+                }
+            ],
+            "notes": "really fun LAN tourney!!"
         }
     ],
     "hosted": [
@@ -1656,7 +1774,8 @@
         25,
         27,
         30,
-        40
+        40,
+        43
     ],
     "streamed": [
         2,
@@ -1670,7 +1789,8 @@
         25,
         27,
         30,
-        40
+        40,
+        43
     ],
     "mappooled": [
         4,
@@ -1679,9 +1799,14 @@
         15,
         18,
         30,
-        40
+        40,
+        43
     ],
     "playtested": [
-        37
+        37,
+        43
+    ],
+    "mapper": [
+        43
     ]
 }
