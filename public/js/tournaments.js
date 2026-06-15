@@ -249,6 +249,6 @@ function createTournamentElements(data) {
     addStat(`#3 placements: ${thirdPlaces}`);
 }
 
-fetch("static/data/tournaments.json").then(response => {
+fetch("public/data/tournaments.json").then(response => {
     return response.json()
 }).then(createTournamentElements);
