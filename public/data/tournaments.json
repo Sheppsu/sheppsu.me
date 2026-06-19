@@ -270,8 +270,8 @@
             "id": 39,
             "acronym": "CTA2",
             "name": "Capture The Achievement 2",
-            "link": "https://cta.sheppsu.me/",
-            "description": "Capture The Achievement (CTA) is a badged (pending) osu! event that combines scavenger hunting with team competition."
+            "link": "https://cta.sheppsu.me/iterations/2",
+            "description": "Capture The Achievement (CTA) is a badged osu! event that combines scavenger hunting with team competition."
         },
         {
             "id": 40,
@@ -307,6 +307,20 @@
             "name": "University of Illinois Urbana-Champaign Lan Tournament",
             "link": "https://docs.google.com/spreadsheets/d/1WfYjpbki3WKrYytg82ru4QMeF5WKVRMPzHbvHvhit0I/edit?gid=1310366069#gid=1310366069",
             "description": "A 4v4 TS5 LAN tournament at UIUC. Also had tandem picks in the pool (TD)."
+        },
+        {
+            "id": 45,
+            "acronym": "CTA3",
+            "name": "Capture The Achievement 3",
+            "link": "https://cta.sheppsu.me",
+            "description": "Capture The Achievement is an online event oriented around osu!, where teams of 1-5 players compete by solving \"achievements.\""
+        },
+        {
+            "id": 46,
+            "acronym": "EZWC26",
+            "name": "Easy World Cup 2026",
+            "link": "https://osu.ppy.sh/community/forums/topics/2212666?n=1",
+            "description": "3v3 TS6 double elimination country-based tournament where the mappool consists entirely of Easy mod."
         }
     ],
     "played": [
@@ -1709,6 +1723,7 @@
                     "rank": 79451
                 }
             ],
+            "placement": "2nd",
             "dateSpan": "4/25/26",
             "matches": [
                 {
@@ -1744,10 +1759,12 @@
         21,
         29,
         30,
-        39
+        39,
+        45
     ],
     "cohost": [
-        40
+        40,
+        46
     ],
     "admin": [
         25
@@ -1760,7 +1777,8 @@
         30,
         37,
         39,
-        40
+        40,
+        46
     ],
     "reffed": [
         1,
@@ -1775,7 +1793,8 @@
         27,
         30,
         40,
-        43
+        43,
+        46
     ],
     "streamed": [
         2,
@@ -1790,7 +1809,8 @@
         27,
         30,
         40,
-        43
+        43,
+        46
     ],
     "mappooled": [
         4,
