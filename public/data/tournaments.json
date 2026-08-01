@@ -312,8 +312,8 @@
             "id": 45,
             "acronym": "CTA3",
             "name": "Capture The Achievement 3",
-            "link": "https://cta.sheppsu.me",
-            "description": "Capture The Achievement is an online event oriented around osu!, where teams of 1-5 players compete by solving \"achievements.\""
+            "link": "https://cta.sheppsu.me/iterations/3",
+            "description": "Capture The Achievement is an officially supported (i.e. badged) online event oriented around osu!, where teams of 1-5 players compete by solving \"achievements.\""
         },
         {
             "id": 46,
@@ -321,6 +321,13 @@
             "name": "Easy World Cup 2026",
             "link": "https://osu.ppy.sh/community/forums/topics/2212666?n=1",
             "description": "3v3 TS6 double elimination country-based tournament where the mappool consists entirely of Easy mod."
+        },
+        {
+            "id": 47,
+            "acronym": "5USC26",
+            "name": "5 Digit United States Cup 2026",
+            "link": "https://osu.ppy.sh/community/forums/topics/2206411?n=1",
+            "description": "3v3 TS6 tournament for 5 digits in the United States. Teams are comprised of the U.S. states."
         }
     ],
     "played": [
@@ -1749,6 +1756,81 @@
                 }
             ],
             "notes": "really fun LAN tourney!!"
+        },
+        {
+            "tournamentId": 47,
+            "team": "Kentucky A",
+            "players": [
+                {
+                    "id": 9890753,
+                    "name": "SirShyLordy",
+                    "rank": 12097
+                },
+                {
+                    "id": 18683125,
+                    "name": "Aizuuya",
+                    "rank": 10819
+                },
+                {
+                    "id": 18319269,
+                    "name": "Hatsuratsu",
+                    "rank": 14963
+                },
+                {
+                    "id": 14895608,
+                    "name": "Sheppsu",
+                    "rank": 23651
+                },
+                {
+                    "id": 3345466,
+                    "name": "Abrown516",
+                    "rank": 16394
+                },
+                {
+                    "id": 16709379,
+                    "name": "yuutsu",
+                    "rank": 10577
+                }
+            ],
+            "placement": "12th - 9th",
+            "dateSpan": "6/20/26 - 7/25/26",
+            "matches": [
+                {
+                    "id": 121369078,
+                    "round": "Qualifiers",
+                    "notes": "Kentucky did so well this quals compared to past years"
+                },
+                {
+                    "id": 121417620,
+                    "round": "Round of 32",
+                    "opponent": "South Carolina A",
+                    "myScore": 5,
+                    "oScore": 1
+                },
+                {
+                    "id": 121502624,
+                    "round": "Round of 16",
+                    "opponent": "Florida A",
+                    "myScore": 6,
+                    "oScore": 5,
+                    "notes": "yuutsu the goat for winning us the TB !!!"
+                },
+                {
+                    "id": 121544746,
+                    "round": "Quarterfinals",
+                    "opponent": "South California A",
+                    "myScore": 0,
+                    "oScore": 6
+                },
+                {
+                    "id": 121579280,
+                    "round": "Losers Semifinals",
+                    "opponent": "Michigan A",
+                    "myScore": 2,
+                    "oScore": 7
+                }
+            ],
+            "notes": "Overall we did really well compared to previous years. Personally I don't think I performed that good, but it's made me want to really lock in on my mechanics. Next year I want to be good enough to have a bigger impact."
         }
     ],
     "hosted": [
@@ -1791,6 +1873,7 @@
         20,
         25,
         27,
+        28,
         30,
         40,
         43,
@@ -1807,6 +1890,7 @@
         18,
         25,
         27,
+        28,
         30,
         40,
         43,
